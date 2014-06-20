@@ -7,63 +7,63 @@ app.service('multimediaService', function () {
 
     var media = [
         {
-            id: 1, name: 'Alien', description: 'Picture', type: 'pic', img: '../../img/alien.png', 
+            id: 1, name: 'Alien', description: 'Picture', type: 'pic', img: '../../images/alien.png',
             views: 10, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'Illustrator', text: 'Ai', background: 'orange'}
             ]
         },
         {
-            id: 2, name: 'ALM Banner 1', description: 'Picture', type: 'pic', img: '../../img/alm-1.png', 
+            id: 2, name: 'ALM Banner 1', description: 'Picture', type: 'pic', img: '../../images/alm-1.png',
             views: 456, cools: 23, url: '/', created: 2010,
             tags: [
                 { name: 'Illustrator', text: 'Ai', background: 'orange'}
             ]
         },
         {
-            id: 3, name: 'ALM Banner 2', description: 'Picture', type: 'pic', img: '../../img/alm-2.png', 
+            id: 3, name: 'ALM Banner 2', description: 'Picture', type: 'pic', img: '../../images/alm-2.png',
             views: 56, cools: 34, url: '/', created: 2010,
             tags: [
                 { name: 'Illustrator', text: 'Ai', background: 'orange'}
             ]
         },
         {
-            id: 4, name: 'ALM Banner 3', description: 'Picture', type: 'pic', img: '../../img/alm-3.png', 
+            id: 4, name: 'ALM Banner 3', description: 'Picture', type: 'pic', img: '../../images/alm-3.png',
             views: 34, cools: 1, url: '/', created: 2010,
             tags: [
                 { name: 'Illustrator', text: 'Ai', background: 'orange'}
             ]
         },
         {
-            id: 5, name: 'ALM Banner 4', description: 'Picture', type: 'pic', img: '../../img/alm-4.png', 
+            id: 5, name: 'ALM Banner 4', description: 'Picture', type: 'pic', img: '../../images/alm-4.png',
             views: 23, cools: 13, url: '/', created: 2010,
             tags: [
                 { name: 'Illustrator', text: 'Ai', background: 'orange'}
             ]
         },
         {
-            id: 6, name: 'ALM Banner 5', description: 'Picture', type: 'pic', img: '../../img/alm-5.png', 
+            id: 6, name: 'ALM Banner 5', description: 'Picture', type: 'pic', img: '../../images/alm-5.png',
             views: 45, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'Illustrator', text: 'Ai', background: 'orange'}
             ]
         },
         {
-            id: 7, name: 'ALM Banner 6', description: 'Picture', type: 'pic', img: '../../img/alm-6.png', 
+            id: 7, name: 'ALM Banner 6', description: 'Picture', type: 'pic', img: '../../images/alm-6.png',
             views: 65, cools: 13, url: '/', created: 2010,
             tags: [
                 { name: 'Illustrator', text: 'Ai', background: 'orange'}
             ]
         },
         {
-            id: 8, name: 'Birla Temple', description: 'Picture', type: 'pic', img: '../../img/birla.png', 
+            id: 8, name: 'Birla Temple', description: 'Picture', type: 'pic', img: '../../images/birla.png',
             views: 23, cools: 4, url: '/', created: 2010,
             tags: [
                 { name: 'Illustrator', text: 'Ai', background: 'orange'}
             ]
         },
         {
-            id: 9, name: 'Demo Reel', description: 'Bits of all my work', type: 'video', img: '../../img/bmr.png', 
+            id: 9, name: 'Demo Reel', description: 'Bits of all my work', type: 'video', img: '../../images/bmr.png',
             views: 45, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'Cinema 4D', text: 'C4D', background: '#263FA5'},
@@ -72,7 +72,7 @@ app.service('multimediaService', function () {
             ]
         },
         {
-            id: 10, name: 'ifest 09 full', description: 'ifest 09 full', type: 'video', img: '../../img/ifest.png', 
+            id: 10, name: 'ifest 09 full', description: 'ifest 09 full', type: 'video', img: '../../images/ifest.png',
             views: 34, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'Cinema 4D', text: 'C4D', background: '#263FA5'},
@@ -80,7 +80,7 @@ app.service('multimediaService', function () {
             ]
         },
         {
-            id: 11, name: 'Devil face', description: 'After effects showcase', type: 'video', img: '../../img/devil.png', 
+            id: 11, name: 'Devil face', description: 'After effects showcase', type: 'video', img: '../../images/devil.png',
             views: 56, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'After Effects', text: 'Ae', background: '#5A2E99'},
@@ -88,7 +88,7 @@ app.service('multimediaService', function () {
             ]
         },
         {
-            id: 12, name: 'Dual Role', description: 'After effects showcase', type: 'video', img: '../../img/dual.png', 
+            id: 12, name: 'Dual Role', description: 'After effects showcase', type: 'video', img: '../../images/dual.png',
             views: 676, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'After Effects', text: 'Ae', background: '#5A2E99'},
@@ -96,7 +96,7 @@ app.service('multimediaService', function () {
             ]
         },
         {
-            id: 13, name: 'Flash 1', description: 'flash video showcase', type: 'video', img: '../../img/flash-1.png', 
+            id: 13, name: 'Flash 1', description: 'flash video showcase', type: 'video', img: '../../images/flash-1.png',
             views: 789, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'Flash', text: 'Fl', background: '#f06060'},
@@ -104,7 +104,7 @@ app.service('multimediaService', function () {
             ]
         },
         {
-            id: 14, name: 'Flash 2', description: 'flash video showcase', type: 'video', img: '../../img/flash-2.png', 
+            id: 14, name: 'Flash 2', description: 'flash video showcase', type: 'video', img: '../../images/flash-2.png',
             views: 98, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'Flash', text: 'Fl', background: '#f06060'},
@@ -112,7 +112,7 @@ app.service('multimediaService', function () {
             ]
         },
         {
-            id: 15, name: 'Gamer', description: 'Short film', type: 'video', img: '../../img/gamer.png', 
+            id: 15, name: 'Gamer', description: 'Short film', type: 'video', img: '../../images/gamer.png',
             views: 23, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'After Effects', text: 'Ae', background: '#5A2E99'},
@@ -120,7 +120,7 @@ app.service('multimediaService', function () {
             ]
         },
         {
-            id: 16, name: 'Gitam - Part 1', description: 'Short film', type: 'video', img: '../../img/gitam.png', 
+            id: 16, name: 'Gitam - Part 1', description: 'Short film', type: 'video', img: '../../images/gitam.png',
             views: 545, cools: 32, url: '/', created: 2010,
             tags: [
                 { name: 'After Effects', text: 'Ae', background: '#5A2E99'},
@@ -128,7 +128,7 @@ app.service('multimediaService', function () {
             ]
         },
         {
-            id: 17, name: 'Gitam - Part 2', description: 'Short film', type: 'video', img: '../../img/gitam.png', 
+            id: 17, name: 'Gitam - Part 2', description: 'Short film', type: 'video', img: '../../images/gitam.png',
             views: 10, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'After Effects', text: 'Ae', background: '#5A2E99'},
@@ -136,7 +136,7 @@ app.service('multimediaService', function () {
             ]
         },
         {
-            id: 18, name: 'Hyderabad', description: 'Photoshop and After Effects', type: 'video', img: '../../img/hyd.png', 
+            id: 18, name: 'Hyderabad', description: 'Photoshop and After Effects', type: 'video', img: '../../images/hyd.png',
             views: 10, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'Photoshop', text: 'Ps', background: '#0099cc'},
@@ -144,7 +144,7 @@ app.service('multimediaService', function () {
             ]
         },
         {
-            id: 19, name: 'I am Mike', description: 'Trailer', type: 'video', img: '../../img/iammike.png', 
+            id: 19, name: 'I am Mike', description: 'Trailer', type: 'video', img: '../../images/iammike.png',
             views: 10, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'Cinema 4D', text: 'C4D', background: '#263FA5'},
@@ -153,7 +153,7 @@ app.service('multimediaService', function () {
             ]
         },
         {
-            id: 20, name: 'I am Mike - short', description: 'short clip', type: 'video', img: '../../img/iammike2.png', 
+            id: 20, name: 'I am Mike - short', description: 'short clip', type: 'video', img: '../../images/iammike2.png',
             views: 10, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'Cinema 4D', text: 'C4D', background: '#263FA5'},
@@ -161,7 +161,7 @@ app.service('multimediaService', function () {
             ]
         },
         {
-            id: 21, name: 'ifest', description: 'Inauguration video', type: 'video', img: '../../img/ifest.png', 
+            id: 21, name: 'ifest', description: 'Inauguration video', type: 'video', img: '../../images/ifest.png',
             views: 10, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'Cinema 4D', text: 'C4D', background: '#263FA5'},
@@ -169,7 +169,7 @@ app.service('multimediaService', function () {
             ]
         },
         {
-            id: 22, name: 'itsa', description: 'Inauguration video', type: 'video', img: '../../img/itsa.png', 
+            id: 22, name: 'itsa', description: 'Inauguration video', type: 'video', img: '../../images/itsa.png',
             views: 10, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'Cinema 4D', text: 'C4D', background: '#263FA5'},
@@ -177,14 +177,14 @@ app.service('multimediaService', function () {
             ]
         },
         {
-            id: 23, name: 'Mindtree Banner', description: 'Banner for Mindtree team', type: 'video', img: '../../img/joy.png', 
+            id: 23, name: 'Mindtree Banner', description: 'Banner for Mindtree team', type: 'video', img: '../../images/joy.png',
             views: 10, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'Illustrator', text: 'Ai', background: 'orange'}
             ]
         },
         {
-            id: 24, name: 'Manchester United', description: 'short video on Man Utd', type: 'video', img: '../../img/manutd.png', 
+            id: 24, name: 'Manchester United', description: 'short video on Man Utd', type: 'video', img: '../../images/manutd.png',
             views: 10, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'Cinema 4D', text: 'C4D', background: '#263FA5'},
@@ -192,7 +192,7 @@ app.service('multimediaService', function () {
             ]
         },
         {
-            id: 25, name: 'Mindtree Batch 2010', description: 'short video on Mindtree Campus Batch 2010', type: 'video', img: '../../img/mindtree.png', 
+            id: 25, name: 'Mindtree Batch 2010', description: 'short video on Mindtree Campus Batch 2010', type: 'video', img: '../../images/mindtree.png',
             views: 10, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'After Effects', text: 'Ae', background: '#5A2E99'},
@@ -200,7 +200,7 @@ app.service('multimediaService', function () {
             ]
         },
         {
-            id: 26, name: 'MR Studios', description: 'Logo Animation', type: 'video', img: '../../img/mrstudios.png', 
+            id: 26, name: 'MR Studios', description: 'Logo Animation', type: 'video', img: '../../images/mrstudios.png',
             views: 10, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'After Effects', text: 'Ae', background: '#5A2E99'},
@@ -208,7 +208,7 @@ app.service('multimediaService', function () {
             ]
         },
         {
-            id: 27, name: 'Source Trailer', description: 'short video on Man Utd', type: 'video', img: '../../img/source.png', 
+            id: 27, name: 'Source Trailer', description: 'short video on Man Utd', type: 'video', img: '../../images/source.png',
             views: 10, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'Cinema 4D', text: 'C4D', background: '#263FA5'},
@@ -217,7 +217,7 @@ app.service('multimediaService', function () {
             ]
         },
         {
-            id: 28, name: 'WALS - Mindtree', description: 'short video on WALS team', type: 'video', img: '../../img/wals.png', 
+            id: 28, name: 'WALS - Mindtree', description: 'short video on WALS team', type: 'video', img: '../../images/wals.png',
             views: 10, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'Photoshop', text: 'Ps', background: '#0099cc'},
@@ -226,7 +226,7 @@ app.service('multimediaService', function () {
             ]
         },
         {
-            id: 29, name: 'Intro Video', description: 'Intro Video', type: 'video', img: '../../img/hearthealthy.png', 
+            id: 29, name: 'Intro Video', description: 'Intro Video', type: 'video', img: '../../images/hearthealthy.png',
             views: 10, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'Illustrator', text: 'Ai', background: 'orange'},
@@ -235,7 +235,7 @@ app.service('multimediaService', function () {
             ]
         },
         {
-            id: 30, name: 'Highlight Reel', description: 'Highlight Reel', type: 'video', img: '../../img/highlightreel.png', 
+            id: 30, name: 'Highlight Reel', description: 'Highlight Reel', type: 'video', img: '../../images/highlightreel.png',
             views: 10, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'Illustrator', text: 'Ai', background: 'orange'},
@@ -244,7 +244,7 @@ app.service('multimediaService', function () {
             ]
         },
         {
-            id: 31, name: 'Intro Video', description: 'Intro Video', type: 'video', img: '../../img/alm-intro2.png', 
+            id: 31, name: 'Intro Video', description: 'Intro Video', type: 'video', img: '../../images/alm-intro2.png',
             views: 10, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'Illustrator', text: 'Ai', background: 'orange'},
@@ -253,7 +253,7 @@ app.service('multimediaService', function () {
             ]
         },
         {
-            id: 32, name: 'Intro Video', description: 'Intro Video', type: 'video', img: '../../img/kearms-intro.png', 
+            id: 32, name: 'Intro Video', description: 'Intro Video', type: 'video', img: '../../images/kearms-intro.png',
             views: 10, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'Illustrator', text: 'Ai', background: 'orange'},
@@ -262,7 +262,7 @@ app.service('multimediaService', function () {
             ]
         },
         {
-            id: 33, name: 'Intro Video', description: 'Intro Video', type: 'video', img: '../../img/alm-int-short.png', 
+            id: 33, name: 'Intro Video', description: 'Intro Video', type: 'video', img: '../../images/alm-int-short.png',
             views: 10, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'Illustrator', text: 'Ai', background: 'orange'},
@@ -271,7 +271,7 @@ app.service('multimediaService', function () {
             ]
         },
         {
-            id: 34, name: 'Intro Video', description: 'Intro Video', type: 'video', img: '../../img/alm-intro.png', 
+            id: 34, name: 'Intro Video', description: 'Intro Video', type: 'video', img: '../../images/alm-intro.png',
             views: 10, cools: 5, url: '/', created: 2010,
             tags: [
                 { name: 'Illustrator', text: 'Ai', background: 'orange'},

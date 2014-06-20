@@ -7,25 +7,25 @@ app.config(function ($routeProvider) {
         .when('/multimedia',
             {
                 controller: 'multimediaController',
-                templateUrl: '/app/partials/multimedia.html'
+                templateUrl: '/javascripts/partials/multimedia.html'
             })
         
         .when('/multimedia/multimedia-item',
             {
                 controller: 'multimediaController',
-                templateUrl: '/app/partials/multimedia-item.html'
+                templateUrl: '/javascripts/partials/multimedia-item.html'
             })
     
         .when('/technical',
             {
                 controller: 'technicalController',
-                templateUrl: '/app/partials/technical.html'
+                templateUrl: '/javascripts/partials/technical.html'
             })
     
         .when('/about',
             {
                 controller: 'aboutController',
-                templateUrl: '/app/partials/about.html'
+                templateUrl: '/javascripts/partials/about.html'
             })
         .otherwise({ redirectTo: '/' });
 });
