@@ -1,0 +1,103 @@
+<br>
+<div class="wrap">
+    <div class="container-fluid" ng-controller="multimediaController">
+        <div class="item-section">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="crop">
+                        <img src="../../img/birla.png" alt="text">
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="item-content">
+                        <p class="item-title"><span class="icon-image2"></span> {{multimedia[0].name}}</p>
+                        <p class="item-year">created in 2010 / 35 views</p>
+                        <hr>
+                        <p class="item-coolcount">
+                            <div class="item-button-section">
+                                <button class="bttn" id="coolcount"><span class="icon-cool"></span>  <strong>35</strong>  <span class="item-saycool">says cool</span>
+                                </button>
+                                <button class="bttn" id="share" onclick="$('.item-share').toggle();"><span class="icon-share"></span> share</button>
+                            </div>
+                            <div class="item-share-section">
+                                <ul class="item-share">
+                                    <li><a href="#"><span class="icon-facebook"></span></a> 
+                                    </li>
+                                    <li><a href="#"><span class="icon-twitter"></span></a> 
+                                    </li>
+                                    <li><a href="#"><span class="icon-googleplus"></span></a> 
+                                    </li>
+                                    <li><a href="#"><span class="icon-pinterest"></span></a> 
+                                    </li>
+                                </ul>
+                            </div>
+                        </p>
+                        <br>
+                        <div class="ibox-div">
+                            <p class="ibox" style="background: orange;">Ai</p>
+                        </div>
+                        <br>
+                        <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <br>
+                        <br>
+                        <a href="#" class="bttn"><span class="icon-download5"></span> Download Project</a> 
+                        <br>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<br>
+<br>
+
+<div style="background:#ddd;">
+    <div class="wrap">
+
+        <div class="container-fluid" ng-controller="multimediaController">
+            <br>
+
+            <h1><strong>Similar items</strong></h1>
+
+            <br>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="page-gallery">
+                        <li ng-repeat="media in multimedia | filter:searchText | orderBy:'name'">
+                            <a href="#/multimedia/multimedia-item" style="text-decoration: none;">
+                                <div class="box-img">
+                                    <img ng-src="{{media.img}}" alt="{{media.description}}">
+                                    <div class="box-hover"><span class="icon-plus"></span>
+                                    </div>
+                                </div>
+                                <div class="box-main">
+                                    <p class="box-title">{{media.name}}</p>
+                                    <p class="box-views">{{media.views}} <span>views</span>
+                                    </p>
+                                    <div class="ibox-div">
+                                        <span ng-repeat="tag in media.tags">
+                                        <p class="ibox-small" style="background: {{tag.background}};">{{tag.text}}</p>
+                                    </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    var d = document.getElementById("header");
+    d.className = d.className + " header-shadow";
+</script>

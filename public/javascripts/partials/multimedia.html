@@ -1,0 +1,63 @@
+<br>
+<div class="wrap">
+    <div class="container-fluid" ng-controller="multimediaController">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="page-title-section">
+                    <p class="page-title">Multimedia projects <sup><span class="icon-rocket"></span></sup>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="search-div">
+                    <input type='text' ng-model='searchText' class="input-box" /><a href="" style="text-decoration:none;"><span class="icon-search"></span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8">
+                <div class="page-tags">
+                    <span class="icon-tag"></span>  <a href="#">Photoshop</a>  <a href="#">Illustrator</a>  <a href="#">After Effects</a>  <a href="#">Premier Pro</a>  <a href="#">Flash</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item-count">
+                    <strong>34</strong> items
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="page-gallery">
+                    <li ng-repeat="media in multimedia | filter:searchText | orderBy:'name'">
+                        <a href="#/multimedia/multimedia-item" style="text-decoration: none;">
+                            <div class="box-img">
+                                <img ng-src="{{media.img}}" alt="{{media.description}}">
+                                <div class="box-hover"><span class="icon-plus"></span></div>
+                            </div>
+                            <div class="box-main">
+                                <p class="box-title">{{media.name}}</p>
+                                <p class="box-views">{{media.views}} <span>views</span></p>
+                                <div class="ibox-div">
+                                    <span ng-repeat="tag in media.tags">
+                                        <p class="ibox-small" style="background: {{tag.background}};">{{tag.text}}</p>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    var d = document.getElementById("header");
+    d.className = d.className + " header-shadow";
+</script>
