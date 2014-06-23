@@ -18,7 +18,7 @@
                             <hr>
                             <p class="item-coolcount">
                             <div class="item-button-section">
-                                <button class="bttn" id="coolcount"><span class="icon-cool"></span>  <strong>35</strong>  <span class="item-saycool">says cool</span>
+                                <button class="bttn" id="coolcount" ng-click="incrementcool(item._id);"><span class="icon-cool"></span>  <strong>{{item.cools}}</strong>  <span class="item-saycool">says cool</span>
                                 </button>
                                 <button class="bttn" id="share" onclick="$('.item-share').toggle();"><span class="icon-share"></span> share</button>
                             </div>

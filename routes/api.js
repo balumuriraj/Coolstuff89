@@ -67,7 +67,40 @@ router.route('/multimedia/:multimedia_id')
             }
             console.log("Get one - sending 1 item..");
             res.json(docs);
+
+            console.log("Updating views for item..");
+            docs.views = Number(docs.views) + 1;    // update views
+
+            //save item
+            docs.save(function(err){
+                if(err){
+                    res.send(err);
+                    console.log(err);
+                }
+
+            })
         });
+    })
+
+    .put(function(req, res){
+       multimedia.findById(req.params.multimedia_id, function (err, docs){
+           if(err){
+               res.send(err);
+               console.log(err);
+           }
+           console.log("Updating cools for item..");
+           docs.cools = Number(docs.cools) + 1;    // update views
+
+           //save item
+           docs.save(function(err){
+               if(err){
+                   res.send(err);
+                   console.log(err);
+               }
+
+           })
+
+       })
     });
 
 

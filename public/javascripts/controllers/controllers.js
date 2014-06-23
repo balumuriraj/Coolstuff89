@@ -38,5 +38,17 @@ app.controller('multimediaItem-Controller', [ '$scope', '$routeParams', 'multime
             });
     }
 
+    $scope.incrementcool = function(id){
+        console.log("updating for " + id);
+        multimediaFactory.updateCools(id)
+            .success(function(data){
+                $scope.item = data;
+            })
+            .error(function(error){
+                $scope.status = "Unable to load data!: " + error.message;
+            });
+
+    }
+
 
 }]);

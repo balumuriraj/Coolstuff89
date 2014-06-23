@@ -14,5 +14,9 @@ app.factory('multimediaFactory', ['$http', function($http){
         return $http.get(baseUrl + '/' + id);
     }
 
+    factory.updateCools = function(id) {
+        return $http.put(baseUrl + '/' + id);
+    }
+
     return factory;
 }]);
