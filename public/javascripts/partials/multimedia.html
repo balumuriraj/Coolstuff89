@@ -1,6 +1,6 @@
 <br>
 <div class="wrap">
-    <div class="container-fluid" ng-controller="multimediaController">
+    <div class="container-fluid" ng-controller="multimedia-Controller">
 
         <div class="row">
             <div class="col-md-6">
@@ -24,7 +24,7 @@
             </div>
             <div class="col-md-4">
                 <div class="item-count">
-                    <strong>34</strong> items
+                    <strong>{{multimedia.count}}</strong> items
                 </div>
             </div>
         </div>
@@ -33,8 +33,8 @@
         <div class="row">
             <div class="col-md-12">
                 <ul class="page-gallery">
-                    <li ng-repeat="media in multimedia | filter:searchText | orderBy:'name'">
-                        <a href="#/multimedia/multimedia-item" style="text-decoration: none;">
+                    <li ng-repeat="media in multimedia.results | filter:searchText | orderBy:'name'">
+                        <a href="#/multimedia/{{media._id}}" style="text-decoration: none;">
                             <div class="box-img">
                                 <img ng-src="{{media.img}}" alt="{{media.description}}">
                                 <div class="box-hover"><span class="icon-plus"></span></div>

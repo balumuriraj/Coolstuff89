@@ -6,13 +6,13 @@ app.config(function ($routeProvider) {
     
         .when('/multimedia',
             {
-                controller: 'multimediaController',
+                controller: 'multimedia-Controller',
                 templateUrl: '/javascripts/partials/multimedia.html'
             })
         
-        .when('/multimedia/multimedia-item',
+        .when('/multimedia/:itemId',
             {
-                controller: 'multimediaController',
+                controller: 'multimediaItem-Controller',
                 templateUrl: '/javascripts/partials/multimedia-item.html'
             })
     
