@@ -1,5 +1,6 @@
 {
   "name": "Coolstuff89",
+  "author": "MohanRaj Balumuri",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -14,5 +15,12 @@
     "debug": "~0.7.4",
     "ejs": "~0.8.5",
     "mongoose": "3.8.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/balumuriraj/Coolstuff89.git"
+  },
+  "engines": {
+    "node": "0.10.29"
   }
 }
