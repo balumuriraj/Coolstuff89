@@ -65,8 +65,6 @@ router.route('/multimedia/:multimedia_id')
                 res.send(err);
                 console.log(err);
             }
-            console.log("Get one - sending 1 item..");
-            res.json(docs);
 
             console.log("Updating views for item..");
             docs.views = Number(docs.views) + 1;    // update views
@@ -77,7 +75,7 @@ router.route('/multimedia/:multimedia_id')
                     res.send(err);
                     console.log(err);
                 }
-
+                res.json(docs);
             })
         });
     })
@@ -97,7 +95,7 @@ router.route('/multimedia/:multimedia_id')
                    res.send(err);
                    console.log(err);
                }
-
+               res.json(docs);
            })
 
        })
