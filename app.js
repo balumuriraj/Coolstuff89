@@ -31,8 +31,8 @@ app.use(cookieParser());                                    // used for csrf
 app.use(express.static(path.join(__dirname, 'public')));    // set the static files location /public/img will be /img for users
 
 //Connect to DB
-mongoose.connect("mongodb://localhost/cs89_db");
-//mongoose.connect("mongodb://coolstuff89:mohanraj@kahana.mongohq.com:10019/cs89_db");
+//mongoose.connect("mongodb://localhost/cs89_db");
+mongoose.connect("mongodb://coolstuff89:mohanraj@kahana.mongohq.com:10019/cs89_db");
 
 // REGISTER OUR ROUTES -------------------------------
 app.use('/', routes);       // all of our routes will be prefixed with /
