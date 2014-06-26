@@ -41,12 +41,13 @@
                             </div>
                             <div class="box-main">
                                 <p class="box-title">{{media.name}}</p>
-                                <p class="box-views">{{media.views}} <span>views</span></p>
                                 <div class="ibox-div">
                                     <span ng-repeat="tag in media.tags">
                                         <p class="ibox-small" style="background: {{tag.background}};">{{tag.text}}</p>
                                     </span>
+                                    <p class="box-views">{{media.cools}} <span>cools</span> | {{media.views}} <span>views</span></p>
                                 </div>
+
                             </div>
                         </a>
                     </li>

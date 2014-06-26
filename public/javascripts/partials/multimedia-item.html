@@ -13,38 +13,36 @@
 
                     <div class="col-lg-6">
                         <div class="item-content">
-                            <p class="item-title"><span class="icon-image2"></span> {{item.name}}</p>
-                            <p class="item-year">created in {{item.created}} / {{item.views}} views</p>
+                            <p class="item-title">{{item.name}}</p>
+                            <p class="item-year">created in {{item.created}}</p>
                             <hr>
-                            <p class="item-coolcount">
                             <div class="item-button-section">
-                                <button class="bttn" id="coolcount" ng-click="incrementcool(item._id);"><span class="icon-cool"></span>  <strong>{{item.cools}}</strong>  <span class="item-saycool">says cool</span>
-                                </button>
-                                <button class="bttn" id="share" onclick="$('.item-share').toggle();"><span class="icon-share"></span> share</button>
+                                <button class="bttn" id="coolcount" ng-click="incrementcool(item._id);"><span class="icon-star2"></span> cool</button>
+                                <button class="bttn" id="share" onclick="$('.item-share').toggle();"><span class="icon-paperplane2"></span> share</button>
+                                <div class="item-share-section">
+                                    <ul class="item-share">
+                                        <li><a href="#"><span class="icon-facebook"></span></a>
+                                        </li>
+                                        <li><a href="#"><span class="icon-twitter"></span></a>
+                                        </li>
+                                        <li><a href="#"><span class="icon-googleplus"></span></a>
+                                        </li>
+                                        <li><a href="#"><span class="icon-pinterest"></span></a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="item-share-section">
-                                <ul class="item-share">
-                                    <li><a href="#"><span class="icon-facebook"></span></a>
-                                    </li>
-                                    <li><a href="#"><span class="icon-twitter"></span></a>
-                                    </li>
-                                    <li><a href="#"><span class="icon-googleplus"></span></a>
-                                    </li>
-                                    <li><a href="#"><span class="icon-pinterest"></span></a>
-                                    </li>
-                                </ul>
+
+                            <div class="item-ibox-div">
+                                <span ng-repeat="tag in item.tags">
+                                    <p class="ibox-small" style="background: {{tag.background}};">{{tag.text}}</p>
+                                </span>
                             </div>
-                            </p>
+                            <p class="item-description">{{item.description}}</p>
                             <br>
-                            <div class="ibox-div">
-                                <p class="ibox" style="background: orange;">Ai</p>
-                            </div>
+                            <button class="bttn"><span class="icon-download5"></span> Download Project</button>
                             <br>
-                            <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <br>
-                            <br>
-                            <a href="#" class="bttn"><span class="icon-download5"></span> Download Project</a>
-                            <br>
+                            <p class="item-box-views">{{item.cools}} <span>cools</span> | {{item.views}} <span>views</span></p>
                         </div>
 
 

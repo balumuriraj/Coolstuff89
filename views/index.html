@@ -57,7 +57,7 @@
                 </p>
                 <p class="welcome-content">by mohanraj balumuri</p>
             </div>
-            <div class="vectors1">
+            <div class="vector-container-s1">
                 <div id="img-tab">
                     <div id="img-bulb"></div>
                 </div>
@@ -75,33 +75,51 @@
     </div>
 </div>
 <div class="section" id="section1">
-    <div id="img-monitor-s2">
-        <div id="img-multimedia-icons-s2"></div>
+    <div class="wrap">
+        <div class="vector-container-common">
+            <div id="img-monitor-s2">
+                <div id="img-multimedia-icons-s2"></div>
+            </div>
+            <a href="#">
+                <div id="img-hand-mobile-s2"></div>
+            </a>
+            <div id="img-click-s2"></div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                    <div class="text-container">
+                        <p class="text-title">Multimedia <span class="text-sub-title">projects</span></p>
+                        <p class="text-content">The projects are made in illustrator, photoshop, after effects, premier pro and many more. All projects are available for free download.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <a href="#">
-        <div id="img-hand-mobile-s2"></div>
-    </a>
-    <div id="img-click-s2"></div>
-    <div class="text-container">
-        <p class="text-title">Multimedia <span class="text-sub-title">projects</span>
-        </p>
-
-        <p class="text-content">The projects are made in illustrator, photoshop, after effects, premier pro and many more. All projects are available for free download.</p>
-    </div>
-
 </div>
 <div class="section" id="section2">
-    <div id="img-board"></div>
-    <div id="img-pencil"></div>
-
-    <div id="img-click-s2"></div>
-    <div class="text-container">
-        <p class="text-title">Technical <span class="text-sub-title">projects</span>
-        </p>
-
-        <p class="text-content">The projects are made in illustrator, photoshop, after effects, premier pro and many more. All projects are available for free download.</p>
+    <div class="wrap">
+        <div class="vector-container-common">
+            <div id="img-board"></div>
+            <div id="img-pencil"></div>
+            <a href="#">
+                <div id="img-chemtube"></div>
+            </a>
+            <div id="img-click-s3"></div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                    <div class="text-container">
+                        <p class="text-title">Technical <span class="text-sub-title">projects</span></p>
+                        <p class="text-content">The projects are made in illustrator, photoshop, after effects, premier pro and many more. All projects are available for free download.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
 </div>
 <div class="section" id="section3">
     <div class="home-wrap">
@@ -235,7 +253,7 @@ $(document).ready(function () {
 
 
     $('#fullpage').fullpage({
-        slidesColor: ['#fff', '#fbc73b', '#f06060', '#fff'],
+        slidesColor: ['#fff', '#fbc73b', '#f7efe2', '#333'],
         css3: true,
         navigation: true,
         'navigationPosition': 'right',
@@ -322,8 +340,34 @@ $(document).ready(function () {
                     });
                 }
 
+                var chemtubefun = function () {
+
+                    var chemtube = $("#img-chemtube");
+                    chemtube.css({
+                        'opacity': '1',
+                        '-webkit-transform': 'translateY(-70%)',
+                        '-moz-transform': 'translateY(-70%)',
+                        '-o-transform': 'translateY(-70%)',
+                        'transform': 'translateY(-70%)'
+                    });
+                }
+
+                var clickfun = function () {
+
+                    var click = $("#img-click-s3");
+                    click.css({
+                        'opacity': '1',
+                        '-webkit-transform': 'translate(50%, -50%)',
+                        '-moz-transform': 'translate(50%, -50%)',
+                        '-o-transform': 'translate(50%, -50%)',
+                        'transform': 'translate(50%, -50%)'
+                    });
+                }
+
                 setTimeout(boardfun, 1);
                 setTimeout(pencilfun, 500);
+                setTimeout(chemtubefun, 1000);
+                setTimeout(clickfun, 1500);
             }
         },
 
