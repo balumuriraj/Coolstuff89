@@ -13,7 +13,8 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
 var routes = require('./routes/index');
-var api = require('./routes/api');
+var multimediaapi = require('./routes/multimedia-api');
+var technicalapi = require('./routes/technical-api');
 
 var app = express();
 
@@ -31,12 +32,13 @@ app.use(cookieParser());                                    // used for csrf
 app.use(express.static(path.join(__dirname, 'public')));    // set the static files location /public/img will be /img for users
 
 //Connect to DB
-//mongoose.connect("mongodb://localhost/cs89_db");
-mongoose.connect("mongodb://coolstuff89:mohanraj@kahana.mongohq.com:10019/cs89_db");
+mongoose.connect("mongodb://localhost/cs89_db");
+//mongoose.connect("mongodb://coolstuff89:mohanraj@kahana.mongohq.com:10019/cs89_db");
 
 // REGISTER OUR ROUTES -------------------------------
 app.use('/', routes);       // all of our routes will be prefixed with /
-app.use('/api', api);       // all of our routes will be prefixed with /api
+app.use('/multimedia-api', multimediaapi);       // all of our routes will be prefixed with /multimedia-api
+app.use('/technical-api', technicalapi);       // all of our routes will be prefixed with /technical-api
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {

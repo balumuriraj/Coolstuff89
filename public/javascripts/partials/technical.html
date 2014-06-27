@@ -1,11 +1,10 @@
 <br>
 <div class="wrap">
-    <div class="container-fluid" ng-controller="multimedia-Controller">
-
+    <div class="container-fluid" ng-controller="technical-Controller">
         <div class="row">
             <div class="col-md-6">
                 <div class="page-title-section">
-                    <p class="page-title">Multimedia projects <sup><span class="icon-rocket"></span></sup>
+                    <p class="page-title">Technical projects <sup><span class="icon-rocket"></span></sup>
                     </p>
                 </div>
             </div>
@@ -19,12 +18,12 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="page-tags">
-                    <span class="icon-tag"></span>  <a href="#">Photoshop</a>  <a href="#">Illustrator</a>  <a href="#">After Effects</a>  <a href="#">Premier Pro</a>  <a href="#">Flash</a>
+                    <span class="icon-tag"></span>  <a href="#">Java</a>  <a href="#">C#</a>  <a href="#">PHP</a>  <a href="#">C++</a>  <a href="#">NodeJS</a>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="item-count">
-                    <strong>{{multimedia.count}}</strong> items
+                    <strong>{{technical.count}}</strong> items
                 </div>
             </div>
         </div>
@@ -34,7 +33,7 @@
         <div class="row">
             <div class="col-md-12">
                 <ul class="page-gallery">
-                    <li ng-repeat="media in multimedia.results | filter:searchText | orderBy:'name'">
+                    <li ng-repeat="media in technical.results | filter:searchText | orderBy:'name'">
                         <a href="#/multimedia/{{media._id}}" style="text-decoration: none;">
                             <div class="box-img">
                                 <img ng-src="{{media.img}}" alt="{{media.description}}">
@@ -55,7 +54,6 @@
                 </ul>
             </div>
         </div>
-
     </div>
 </div>
 

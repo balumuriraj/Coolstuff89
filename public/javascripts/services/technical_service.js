@@ -1,9 +1,13 @@
+/**
+ * Created by MohanRaj on 6/26/2014.
+ */
+
 //This handles retrieving data and is used by controllers. 3 options (server, factory, provider) with
 //each doing the same thing just structuring the functions/data differently.
 
-app.factory('multimediaFactory', ['$http', function($http){
+app.factory('technicalFactory', ['$http', function($http){
 
-    var baseUrl = '/multimedia-api/multimedia';
+    var baseUrl = '/technical-api/technical';
     var factory = {};
 
     factory.getItems = function() {

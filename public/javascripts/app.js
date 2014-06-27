@@ -18,8 +18,14 @@ app.config(function ($routeProvider) {
     
         .when('/technical',
             {
-                controller: 'technicalController',
+                controller: 'technical-Controller',
                 templateUrl: '/javascripts/partials/technical.html'
+            })
+
+        .when('/technical/:itemId',
+            {
+                controller: 'technicalItem-Controller',
+                templateUrl: '/javascripts/partials/technical-item.html'
             })
     
         .when('/about',

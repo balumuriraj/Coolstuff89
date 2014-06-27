@@ -49,6 +49,26 @@ app.controller('multimediaItem-Controller', [ '$scope', '$routeParams', 'multime
             });
 
     }
+}]);
 
+app.controller('technical-Controller', [ '$scope', 'technicalFactory', function ($scope, technicalFactory) {
+
+    $scope.technical;
+    $scope.item;
+    $scope.status;
+
+    init();
+
+    function init(){
+        console.log("tech***************************************");
+        technicalFactory.getItems()
+            .success(function(data){
+
+                $scope.technical = data;
+            })
+            .error(function(error){
+                $scope.status = "Unable to load data!: " + error.message;
+            });
+    }
 
 }]);

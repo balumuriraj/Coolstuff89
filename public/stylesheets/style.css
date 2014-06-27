@@ -30,7 +30,7 @@ body {
     background: #eee;
 }
 .wrap {
-    width: 90%;
+    width: 98%;
     margin: 0 auto;
     max-width: 1440px;
 }
@@ -700,7 +700,7 @@ a .content-main {
 .page-gallery li {
     display: inline-block;
     width: 33.33%;
-    padding: 2em;
+    padding: 0.25em;
 }
 .page-gallery li a:hover {
     opacity: 0.85;
