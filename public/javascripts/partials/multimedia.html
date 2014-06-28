@@ -11,20 +11,26 @@
             </div>
             <div class="col-md-6">
                 <div class="search-div">
-                    <input type='text' ng-model='searchText' class="input-box" /><a href="" style="text-decoration:none;"><span class="icon-search"></span></a>
+                    <input type='text' ng-model='searchText' class="input-box" id="search-box"/><a href="" style="text-decoration:none;"><span class="icon-search"></span></a>
                 </div>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8">
                 <div class="page-tags">
-                    <span class="icon-tag"></span>  <a href="#">Photoshop</a>  <a href="#">Illustrator</a>  <a href="#">After Effects</a>  <a href="#">Premier Pro</a>  <a href="#">Flash</a>
+
+                    <ul>
+                        <li><span class="icon-tag"></span></li>
+                        <li ng-repeat="tool in tech.list">
+                            <button ng-click="finder(tool.value)">{{tool.name}}</button>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-4">
                 <div class="item-count">
-                    <strong>{{multimedia.count}}</strong> items
+                    <strong>{{(multimedia.results | filter:searchText).length}}</strong> items
                 </div>
             </div>
         </div>
@@ -34,11 +40,11 @@
         <div class="row">
             <div class="col-md-12">
                 <ul class="page-gallery">
-                    <li ng-repeat="media in multimedia.results | filter:searchText | orderBy:'name'">
+                    <li ng-repeat="media in multimedia.results | filter:searchText | orderBy:'cools'">
                         <a href="#/multimedia/{{media._id}}" style="text-decoration: none;">
                             <div class="box-img">
                                 <img ng-src="{{media.img}}" alt="{{media.description}}">
-                                <div class="box-hover"><span class="icon-plus"></span></div>
+                                <div class="box-hover"><span class="icon-search2"></span></div>
                             </div>
                             <div class="box-main">
                                 <p class="box-title">{{media.name}}</p>

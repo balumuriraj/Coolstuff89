@@ -3,8 +3,38 @@
 app.controller('multimedia-Controller', [ '$scope', 'multimediaFactory', function ($scope, multimediaFactory) {
 
     $scope.multimedia;
-    $scope.item;
+    $scope.searchText;
     $scope.status;
+    $scope.tech = {
+        "list": [
+            {
+                "name": "Photoshop",
+                "value": "photoshop"
+            },
+            {
+                "name": "Illustrator",
+                "value": "illustrator"
+            },
+            {
+                "name": "After Effects",
+                "value": "aftereffects"
+            },
+            {
+                "name": "Premier Pro",
+                "value": "premierpro"
+            },
+            {
+                "name": "Flash",
+                "value": "flash"
+            }, {
+                "name": "Cinema4D",
+                "value": "cinema4d"
+            }, {
+                "name": "All",
+                "value": ""
+            }
+        ]
+    }
 
     init();
 
@@ -17,6 +47,11 @@ app.controller('multimedia-Controller', [ '$scope', 'multimediaFactory', functio
                 $scope.status = "Unable to load data!: " + error.message;
             });
     }
+
+    $scope.finder = function(tool) {
+        // How can I pass this value to ItemController?
+        $scope.searchText = tool;
+    };
 
 }]);
 
@@ -54,8 +89,50 @@ app.controller('multimediaItem-Controller', [ '$scope', '$routeParams', 'multime
 app.controller('technical-Controller', [ '$scope', 'technicalFactory', function ($scope, technicalFactory) {
 
     $scope.technical;
-    $scope.item;
+    $scope.searchText;
     $scope.status;
+    $scope.tech = {
+        "list": [
+            {
+                "name": "Java",
+                "value": "java"
+            },
+            {
+                "name": "C#",
+                "value": "c#"
+            },
+            {
+                "name": "PHP",
+                "value": "php"
+            },
+            {
+                "name": "NodeJS",
+                "value": "nodejs"
+            },
+            {
+                "name": "Spring",
+                "value": "spring"
+            }, {
+                "name": "AngularJS",
+                "value": "angularjs"
+            }, {
+                "name": "HTML",
+                "value": "html"
+            }, {
+                "name": "CSS",
+                "value": "css"
+            }, {
+                "name": "MySql",
+                "value": "mysql"
+            }, {
+                "name": "MongoDB",
+                "value": "mongodb"
+            },{
+                "name": "All",
+                "value": ""
+            }
+        ]
+    }
 
     init();
 
@@ -71,4 +148,40 @@ app.controller('technical-Controller', [ '$scope', 'technicalFactory', function 
             });
     }
 
+    $scope.finder = function(tool) {
+        // How can I pass this value to ItemController?
+        $scope.searchText = tool;
+    };
+
+}]);
+
+app.controller('technicalItem-Controller', [ '$scope', '$routeParams', 'technicalFactory', function ($scope, $routeParams, technicalFactory) {
+
+    $scope.item;
+    $scope.status;
+
+    init();
+
+    function init(){
+        console.log("Id is " + $routeParams.itemId);
+        technicalFactory.getItem($routeParams.itemId)
+            .success(function(data){
+                $scope.item = data;
+            })
+            .error(function(error){
+                $scope.status = "Unable to load data!: " + error.message;
+            });
+    }
+
+    $scope.incrementcool = function(id){
+        console.log("updating for " + id);
+        technicalFactory.updateCools(id)
+            .success(function(data){
+                $scope.item = data;
+            })
+            .error(function(error){
+                $scope.status = "Unable to load data!: " + error.message;
+            });
+
+    }
 }]);

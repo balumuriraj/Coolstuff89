@@ -1,11 +1,106 @@
 <br>
-<div class="wrap">
-    <div class="container-fluid" ng-controller="technicalItem-Controller">
+<div ng-controller="technicalItem-Controller">
+    <div class="wrap">
+        <div class="container-fluid">
+            <div class="item-section">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="crop">
+                            <img ng-src="{{item.img}}" alt="text">
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="item-content">
+                            <p class="item-title">{{item.name}}</p>
+                            <p class="item-type">{{item.type}}</p>
+                            <p class="item-year">created in {{item.created}}</p>
+                            <hr>
+                            <div class="item-technologies">
+                                <ul>
+                                    <li><span class="icon-tag"></span> </li>
+                                    <li ng-repeat="front in item.technologies.frontend">{{front}}</li>
+                                    <li ng-repeat="back in item.technologies.backend">{{back}}</li>
+                                    <li ng-repeat="database in item.technologies.database">{{database}}</li>
+                                </ul>
+                            </div>
+                            <hr>
+                            <div class="item-button-section">
+                                <button class="bttn" id="coolcount" ng-click="incrementcool(item._id);"><span class="icon-star2"></span> cool</button>
+                                <button class="bttn" id="share" onclick="$('.item-share').toggle();"><span class="icon-paperplane2"></span> share</button>
+                                <div class="item-share-section">
+                                    <ul class="item-share">
+                                        <li><a href="#"><span class="icon-facebook"></span></a>
+                                        </li>
+                                        <li><a href="#"><span class="icon-twitter"></span></a>
+                                        </li>
+                                        <li><a href="#"><span class="icon-googleplus"></span></a>
+                                        </li>
+                                        <li><a href="#"><span class="icon-pinterest"></span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="bttn" id="livedemo" onclick=""><span class="icon-fire"></span> live demo</button>
+                            </div>
+                            <br>
+                            <p class="item-description">{{item.description}}</p>
+                            <br>
+
+
+                            <button class="bttn"><span class="icon-github3"></span> Download Project from Github</button>
+                            <br>
+                            <p class="item-box-views">{{item.cools}} <span>cools</span> | {{item.views}} <span>views</span></p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div style="background:#ddd;">
+        <div class="wrap">
+
+            <div class="container-fluid" ng-controller="technical-Controller">
+                <br>
+
+                <h1><strong>Similar items</strong></h1>
+
+                <br>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="page-gallery">
+                            <li ng-repeat="techia in technical.results | filter:searchText | orderBy:'name'">
+                                <a href="#/technical/{{techia._id}}" style="text-decoration: none;">
+                                    <div class="box-img">
+                                        <img ng-src="{{techia.img}}" alt="{{techia.description}}">
+                                        <div class="box-hover"><span class="icon-plus"></span></div>
+                                    </div>
+                                    <div class="box-main">
+                                        <p class="box-title">{{techia.name}}</p>
+                                        <div class="ibox-div">
+                                    <span ng-repeat="tag in techia.tags">
+                                        <p class="ibox-small" style="background: {{tag.background}};">{{tag.text}}</p>
+                                    </span>
+                                            <p class="box-views">{{techia.cools}} <span>cools</span> | {{techia.views}} <span>views</span></p>
+                                        </div>
+
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 </div>
-
-<script>
-    var d = document.getElementById("header");
-    d.className = d.className + " header-shadow";
-</script>

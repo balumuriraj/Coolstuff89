@@ -61,7 +61,7 @@ router.route('/technical')
     });
 
 
-/* GET multimedia api listing (accessed at GET http://localhost:3000/multimedia-api/multimedia/{object})  */
+/* GET multimedia api listing (accessed at GET http://localhost:3000/technical-api/technical/{object})  */
 router.route('/technical/:technical_id')
     .get(function(req, res){
         technical.findById(req.params.technical_id, function (err, docs) {
