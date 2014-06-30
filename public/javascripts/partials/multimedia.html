@@ -65,7 +65,11 @@
     </div>
 </div>
 
-<script>
+<script type="text/javascript">
     var d = document.getElementById("header");
     d.className = d.className + " header-shadow";
+
+    $( document ).ready(function() {
+        $('#multiStat').circliful();
+    });
 </script>
