@@ -20,33 +20,45 @@
 </head>
 <body>
 <div id="loading">
-    <p>Loading...</p>
+    <img src="/images/preloader/Preloader_10.gif" alt="Loading">
 </div>
 <div id="fullpage">
 <div class="section " id="section0">
     <header>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4 col-sm-4 top-line-2"></div>
-                <div class="col-md-4 col-sm-4 top-line-3"></div>
-                <div class="col-md-4 col-sm-4 top-line-4"></div>
+                <div class="col-md-4 col-sm-4 col-xs-4 top-line-2"></div>
+                <div class="col-md-4 col-sm-4 col-xs-4 top-line-3"></div>
+                <div class="col-md-4 col-sm-4 col-xs-4 top-line-4"></div>
+            </div>
+            <div class="row" id="menu-container">
+                <div class="col-md-12 col-sm-12 hidden-xs responsive-menu">
+                    <a href="/">Home</a>
+                    <a href="home#/multimedia">Multimedia</a>
+                    <a href="home#/technical">Technical</a>
+                    <a href="home#/about">About</a>
+                </div>
             </div>
         </div>
         <div class="">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-4 col-sm-4 header-left" id="logo">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 header-left" id="logo">
+                        <button class="menu-button visible-xs" onclick="showmenu()"><span class="icon-menu2"></span></button>
                         <p class="logo">
                             <a href="/">
                                 <img src="/images/logo.png" class="logo-img">
                             </a>
                         </p>
                     </div>
-                    <div class="col-md-8 col-sm-4 header-right" id="header-right">
+                    <div class="col-lg-8 header-right visible-lg" id="header-right">
                         <a href="/" class="menu-bttn"><span data-hover="Home">Home</span></a>
                         <a href="home#/multimedia" class="menu-bttn"><span data-hover="Multimedia">Multimedia</span></a>
                         <a href="home#/technical" class="menu-bttn"><span data-hover="Technical">Technical</span></a>
                         <a href="home#/about" class="menu-bttn"><span data-hover="About">About</span></a>
+                    </div>
+                    <div class="col-md-6 col-sm-6 hidden-xs header-right-responsive hidden-lg">
+                        <button onclick="showmenu()"><span class="icon-menu2"></span>Menu</button>
                     </div>
                 </div>
             </div>
@@ -60,7 +72,7 @@
                 </p>
                 <p class="welcome-content">by mohanraj balumuri</p>
             </div>
-            <div class="vector-container-s1">
+            <div class="vector-container-s1 hidden-sm hidden-xs">
                 <div id="img-tab">
                     <div id="img-bulb"></div>
                 </div>
@@ -79,7 +91,7 @@
 </div>
 <div class="section" id="section1">
     <div class="wrap">
-        <div class="vector-container-common">
+        <div class="vector-container-common hidden-xs">
             <div id="img-monitor-s2">
                 <div id="img-multimedia-icons-s2"></div>
             </div>
@@ -90,8 +102,8 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6"></div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-6"></div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="text-container">
                         <p class="text-title">Multimedia <span class="text-sub-title">projects</span></p>
                         <p class="text-content">
@@ -103,9 +115,9 @@
                 </div>
             </div>
         </div>
-        <div id="section1-face"></div>
-        <div id="section1-face-do"></div>
-        <div id="section1-face-brow"></div>
+        <div id="section1-face hidden-xs"></div>
+        <div id="section1-face-do hidden-xs"></div>
+        <div id="section1-face-brow hidden-xs"></div>
 
         <div class="why-container" id="why-s1">
             <p class="why-text">
@@ -116,7 +128,7 @@
 </div>
 <div class="section" id="section2">
     <div class="wrap">
-        <div class="vector-container-common">
+        <div class="vector-container-common hidden-xs">
             <div id="img-board"></div>
             <div id="img-pencil"></div>
             <a href="home#/technical" onmouseover="showsection2do()" onmouseout="hidesection2do()">
@@ -126,8 +138,8 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6"></div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-6"></div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="text-container">
                         <p class="text-title">Technical <span class="text-sub-title">projects</span></p>
                         <p class="text-content">
@@ -139,9 +151,9 @@
                 </div>
             </div>
         </div>
-        <div id="section2-face"></div>
-        <div id="section2-face-do"></div>
-        <div id="section2-face-brow"></div>
+        <div id="section2-face hidden-xs"></div>
+        <div id="section2-face-do hidden-xs"></div>
+        <div id="section2-face-brow hidden-xs"></div>
 
         <div class="why-container" id="why-s2">
             <p class="why-text">
@@ -151,7 +163,7 @@
     </div>
 </div>
 <div class="section" id="section3">
-    <div class="face-section">
+    <div class="face-section hidden-xs">
         <div id="face-tech"></div>
         <div id="face-hi"></div>
         <div id="face-multi"></div>
@@ -163,7 +175,7 @@
     <div class="about-section">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-offset-1 col-md-6">
+                <div class="col-md-offset-1 col-md-6 col-sm-offset-1 col-sm-6">
                     <div class="about-container">
                         <p class="about-title">"Hi, I am <span onmouseover="showhi()" onmouseout="hidehi()"> MohanRaj </span> Balumuri"</p>
                         <p class="about-content">
@@ -176,7 +188,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-5"></div>
+                <div class="col-md-5 col-sm-5"></div>
             </div>
         </div>
     </div>
@@ -199,8 +211,12 @@
 
 <!-- custom -->
 <script type="text/javascript">
+
+$('#menu-container').hide();
+
 function preloader(){
     var loading = $("#loading");
+
     loading.css({
         '-webkit-transform': 'scale(0)',
         '-moz-transform': 'scale(0)',
@@ -210,6 +226,10 @@ function preloader(){
     });
 }//preloader
 window.onload = preloader;
+
+function showmenu() {
+    $('#menu-container').toggle();
+}
 
 function showsection1do(){
     var hi = $("#section1-face-do");
