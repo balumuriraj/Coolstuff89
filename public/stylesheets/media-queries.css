@@ -52,12 +52,15 @@
         width: 50%;
     }
 }
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
     body{
         font-size: 75%;
     }
     .page-gallery li {
         width: 50%;
+    }
+    .angular-section {
+        margin-top: -10em;
     }
 }
 /* Smartphones (portrait and landscape) ----------- */
@@ -66,8 +69,21 @@
     body{
         font-size: 70%;
     }
+    .mobile-menu-button {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        font-size: 4em;
+        z-index: 9999;
+    }
     .page-gallery li {
         width: 100%;
+    }
+    .angular-section {
+        margin-top: -10em;
+    }
+    .input-box {
+        width: 75%;
     }
 }
 /* Smartphones (portrait) ----------- */
@@ -75,6 +91,13 @@
 @media only screen and (max-width: 320px) {
     body{
         font-size: 70%;
+    }
+    .mobile-menu-button {
+        position: absolute;
+        top: 10px;
+        right: 5px;
+        font-size: 4em;
+        z-index: 9999;
     }
     .welcome-title{
         font-size: 5em;
@@ -95,6 +118,15 @@
     }
     .page-gallery li {
         width: 100%;
+    }
+    .angular-section {
+        margin-top: -10em;
+    }
+    .page-title-section{
+        text-align: center;
+    }
+    .search-div{
+        text-align: center;
     }
 }
 /* iPhone 4 ----------- */

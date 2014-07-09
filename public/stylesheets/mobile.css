@@ -55,3 +55,16 @@
     text-decoration: none;
     color: #fff;
 }
+
+.header-mobile{
+    background: #fff;
+}
+
+.mobile-logo {
+    width: 100%;
+}
+
+.mobile-logo img{
+    height: 8em;
+    padding-bottom: 1em;
+}
