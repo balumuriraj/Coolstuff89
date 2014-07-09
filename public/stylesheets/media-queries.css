@@ -76,6 +76,23 @@
     body{
         font-size: 70%;
     }
+    .welcome-title{
+        font-size: 5em;
+    }
+
+    .about-container{
+        text-align: left;
+    }
+    .about-title{
+        font-size: 3em;
+        font-weight: 100;
+    }
+    .about-title span{
+        border-bottom: 1px solid #f06060;
+    }
+    .about-content span{
+        border-bottom: 1px dashed #47a3da;
+    }
     .page-gallery li {
         width: 100%;
     }

@@ -42,11 +42,10 @@ body {
     -o-transition: all 2s ease;
     transition: all 2s ease;
 }
-#loading img{
+#loading p{
     position: relative;
     top: 50%;
-    left: 50%;
-    margin-left: -1em;
+    left: 45%;
     margin-top: -1em;
     font-size: 5em;
     color: #999;
@@ -242,6 +241,7 @@ body {
     top: 25%;
     float: left;
 }
+
 /**** welcome page ****/
 
 .welcome{
