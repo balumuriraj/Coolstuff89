@@ -9,7 +9,7 @@
 
 .mobile-menu-button button {
     outline: 0;
-    border: 1px solid #999;
+    border: none;
     background-color: transparent;
     color: #666;
 }
