@@ -55,10 +55,9 @@ app.controller('multimedia-Controller', [ '$scope', 'multimediaFactory', functio
 
 }]);
 
-app.controller('multimediaItem-Controller', [ '$sce', '$scope', '$routeParams', 'multimediaFactory', function ($scope, $routeParams, multimediaFactory, $sce) {
+app.controller('multimediaItem-Controller', [ '$scope', '$routeParams', 'multimediaFactory', function ($scope, $routeParams, multimediaFactory) {
 
     $scope.item;
-    $scope.youtube;
     $scope.status;
 
     init();
@@ -68,7 +67,6 @@ app.controller('multimediaItem-Controller', [ '$sce', '$scope', '$routeParams', 
         multimediaFactory.getItem($routeParams.itemId)
             .success(function(data){
                 $scope.item = data;
-                $scope.youtube = $sce.trustAsResourceUrl("http://www.youtube.com/embed/jiNcFHdURjs");
             })
             .error(function(error){
                 $scope.status = "Unable to load data!: " + error.message;
