@@ -1,792 +1,795 @@
-{
-    "count": 34,
-    "results": [
-        {
-            "_id": "53a60e30e408998878e3391d",
-            "name": "Alien",
-            "description": "Picture",
-            "type": "pic",
-            "img": "../../images/alien.png",
-            "views": 10,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Illustrator",
-                    "text": "Ai",
-                    "background": "orange"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e3391e",
-            "name": "ALMBanner1",
-            "description": "Picture",
-            "type": "pic",
-            "img": "../../images/alm-1.png",
-            "views": 456,
-            "cools": 23,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Illustrator",
-                    "text": "Ai",
-                    "background": "orange"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e3391f",
-            "name": "ALMBanner2",
-            "description": "Picture",
-            "type": "pic",
-            "img": "../../images/alm-2.png",
-            "views": 56,
-            "cools": 34,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Illustrator",
-                    "text": "Ai",
-                    "background": "orange"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e33920",
-            "name": "ALMBanner3",
-            "description": "Picture",
-            "type": "pic",
-            "img": "../../images/alm-3.png",
-            "views": 34,
-            "cools": 1,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Illustrator",
-                    "text": "Ai",
-                    "background": "orange"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e33921",
-            "name": "ALMBanner4",
-            "description": "Picture",
-            "type": "pic",
-            "img": "../../images/alm-4.png",
-            "views": 23,
-            "cools": 13,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Illustrator",
-                    "text": "Ai",
-                    "background": "orange"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e33922",
-            "name": "ALMBanner5",
-            "description": "Picture",
-            "type": "pic",
-            "img": "../../images/alm-5.png",
-            "views": 45,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Illustrator",
-                    "text": "Ai",
-                    "background": "orange"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e33923",
-            "name": "ALMBanner6",
-            "description": "Picture",
-            "type": "pic",
-            "img": "../../images/alm-6.png",
-            "views": 65,
-            "cools": 13,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Illustrator",
-                    "text": "Ai",
-                    "background": "orange"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e33924",
-            "name": "BirlaTemple",
-            "description": "Picture",
-            "type": "pic",
-            "img": "../../images/birla.png",
-            "views": 23,
-            "cools": 4,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Illustrator",
-                    "text": "Ai",
-                    "background": "orange"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e33925",
-            "name": "DemoReel",
-            "description": "Bitsofallmywork",
-            "type": "video",
-            "img": "../../images/bmr.png",
-            "views": 45,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Cinema4D",
-                    "text": "C4D",
-                    "background": "#263FA5"
-                },
-                {
-                    "name": "AfterEffects",
-                    "text": "Ae",
-                    "background": "#5A2E99"
-                },
-                {
-                    "name": "PremierPro",
-                    "text": "Pr",
-                    "background": "#942E99"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e33926",
-            "name": "ifest09full",
-            "description": "ifest09full",
-            "type": "video",
-            "img": "../../images/ifest.png",
-            "views": 34,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Cinema4D",
-                    "text": "C4D",
-                    "background": "#263FA5"
-                },
-                {
-                    "name": "PremierPro",
-                    "text": "Pr",
-                    "background": "#942E99"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e33927",
-            "name": "Devilface",
-            "description": "Aftereffectsshowcase",
-            "type": "video",
-            "img": "../../images/devil.png",
-            "views": 56,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "AfterEffects",
-                    "text": "Ae",
-                    "background": "#5A2E99"
-                },
-                {
-                    "name": "PremierPro",
-                    "text": "Pr",
-                    "background": "#942E99"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e33928",
-            "name": "DualRole",
-            "description": "Aftereffectsshowcase",
-            "type": "video",
-            "img": "../../images/dual.png",
-            "views": 676,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "AfterEffects",
-                    "text": "Ae",
-                    "background": "#5A2E99"
-                },
-                {
-                    "name": "PremierPro",
-                    "text": "Pr",
-                    "background": "#942E99"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e33929",
-            "name": "Flash1",
-            "description": "flashvideoshowcase",
-            "type": "video",
-            "img": "../../images/flash-1.png",
-            "views": 789,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Flash",
-                    "text": "Fl",
-                    "background": "#f06060"
-                },
-                {
-                    "name": "PremierPro",
-                    "text": "Pr",
-                    "background": "#942E99"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e3392a",
-            "name": "Flash2",
-            "description": "flashvideoshowcase",
-            "type": "video",
-            "img": "../../images/flash-2.png",
-            "views": 98,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Flash",
-                    "text": "Fl",
-                    "background": "#f06060"
-                },
-                {
-                    "name": "PremierPro",
-                    "text": "Pr",
-                    "background": "#942E99"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e3392b",
-            "name": "Gamer",
-            "description": "Shortfilm",
-            "type": "video",
-            "img": "../../images/gamer.png",
-            "views": 23,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "AfterEffects",
-                    "text": "Ae",
-                    "background": "#5A2E99"
-                },
-                {
-                    "name": "PremierPro",
-                    "text": "Pr",
-                    "background": "#942E99"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e3392c",
-            "name": "Gitam-Part1",
-            "description": "Shortfilm",
-            "type": "video",
-            "img": "../../images/gitam.png",
-            "views": 545,
-            "cools": 32,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "AfterEffects",
-                    "text": "Ae",
-                    "background": "#5A2E99"
-                },
-                {
-                    "name": "PremierPro",
-                    "text": "Pr",
-                    "background": "#942E99"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e3392d",
-            "name": "Gitam-Part2",
-            "description": "Shortfilm",
-            "type": "video",
-            "img": "../../images/gitam.png",
-            "views": 10,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "AfterEffects",
-                    "text": "Ae",
-                    "background": "#5A2E99"
-                },
-                {
-                    "name": "PremierPro",
-                    "text": "Pr",
-                    "background": "#942E99"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e3392e",
-            "name": "Hyderabad",
-            "description": "PhotoshopandAfterEffects",
-            "type": "video",
-            "img": "../../images/hyd.png",
-            "views": 10,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Photoshop",
-                    "text": "Ps",
-                    "background": "#0099cc"
-                },
-                {
-                    "name": "AfterEffects",
-                    "text": "Ae",
-                    "background": "#5A2E99"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e3392f",
-            "name": "IamMike",
-            "description": "Trailer",
-            "type": "video",
-            "img": "../../images/iammike.png",
-            "views": 10,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Cinema4D",
-                    "text": "C4D",
-                    "background": "#263FA5"
-                },
-                {
-                    "name": "AfterEffects",
-                    "text": "Ae",
-                    "background": "#5A2E99"
-                },
-                {
-                    "name": "PremierPro",
-                    "text": "Pr",
-                    "background": "#942E99"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e33930",
-            "name": "IamMike-short",
-            "description": "shortclip",
-            "type": "video",
-            "img": "../../images/iammike2.png",
-            "views": 10,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Cinema4D",
-                    "text": "C4D",
-                    "background": "#263FA5"
-                },
-                {
-                    "name": "PremierPro",
-                    "text": "Pr",
-                    "background": "#942E99"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e33931",
-            "name": "ifest",
-            "description": "Inaugurationvideo",
-            "type": "video",
-            "img": "../../images/ifest.png",
-            "views": 10,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Cinema4D",
-                    "text": "C4D",
-                    "background": "#263FA5"
-                },
-                {
-                    "name": "PremierPro",
-                    "text": "Pr",
-                    "background": "#942E99"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e33932",
-            "name": "itsa",
-            "description": "Inaugurationvideo",
-            "type": "video",
-            "img": "../../images/itsa.png",
-            "views": 10,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Cinema4D",
-                    "text": "C4D",
-                    "background": "#263FA5"
-                },
-                {
-                    "name": "PremierPro",
-                    "text": "Pr",
-                    "background": "#942E99"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e33933",
-            "name": "MindtreeBanner",
-            "description": "BannerforMindtreeteam",
-            "type": "video",
-            "img": "../../images/joy.png",
-            "views": 10,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Illustrator",
-                    "text": "Ai",
-                    "background": "orange"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e33934",
-            "name": "ManchesterUnited",
-            "description": "shortvideoonManUtd",
-            "type": "video",
-            "img": "../../images/manutd.png",
-            "views": 10,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Cinema4D",
-                    "text": "C4D",
-                    "background": "#263FA5"
-                },
-                {
-                    "name": "PremierPro",
-                    "text": "Pr",
-                    "background": "#942E99"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e33935",
-            "name": "MindtreeBatch2010",
-            "description": "shortvideoonMindtreeCampusBatch2010",
-            "type": "video",
-            "img": "../../images/mindtree.png",
-            "views": 10,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "AfterEffects",
-                    "text": "Ae",
-                    "background": "#5A2E99"
-                },
-                {
-                    "name": "PremierPro",
-                    "text": "Pr",
-                    "background": "#942E99"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e33936",
-            "name": "MRStudios",
-            "description": "LogoAnimation",
-            "type": "video",
-            "img": "../../images/mrstudios.png",
-            "views": 10,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "AfterEffects",
-                    "text": "Ae",
-                    "background": "#5A2E99"
-                },
-                {
-                    "name": "PremierPro",
-                    "text": "Pr",
-                    "background": "#942E99"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e33937",
-            "name": "SourceTrailer",
-            "description": "shortvideoonManUtd",
-            "type": "video",
-            "img": "../../images/source.png",
-            "views": 10,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Cinema4D",
-                    "text": "C4D",
-                    "background": "#263FA5"
-                },
-                {
-                    "name": "AfterEffects",
-                    "text": "Ae",
-                    "background": "#5A2E99"
-                },
-                {
-                    "name": "PremierPro",
-                    "text": "Pr",
-                    "background": "#942E99"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e33938",
-            "name": "WALS-Mindtree",
-            "description": "shortvideoonWALSteam",
-            "type": "video",
-            "img": "../../images/wals.png",
-            "views": 10,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Photoshop",
-                    "text": "Ps",
-                    "background": "#0099cc"
-                },
-                {
-                    "name": "AfterEffects",
-                    "text": "Ae",
-                    "background": "#5A2E99"
-                },
-                {
-                    "name": "PremierPro",
-                    "text": "Pr",
-                    "background": "#942E99"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e33939",
-            "name": "IntroVideo",
-            "description": "IntroVideo",
-            "type": "video",
-            "img": "../../images/hearthealthy.png",
-            "views": 10,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Illustrator",
-                    "text": "Ai",
-                    "background": "orange"
-                },
-                {
-                    "name": "AfterEffects",
-                    "text": "Ae",
-                    "background": "#5A2E99"
-                },
-                {
-                    "name": "PremierPro",
-                    "text": "Pr",
-                    "background": "#942E99"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e3393a",
-            "name": "HighlightReel",
-            "description": "HighlightReel",
-            "type": "video",
-            "img": "../../images/highlightreel.png",
-            "views": 10,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Illustrator",
-                    "text": "Ai",
-                    "background": "orange"
-                },
-                {
-                    "name": "AfterEffects",
-                    "text": "Ae",
-                    "background": "#5A2E99"
-                },
-                {
-                    "name": "PremierPro",
-                    "text": "Pr",
-                    "background": "#942E99"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e3393b",
-            "name": "IntroVideo",
-            "description": "IntroVideo",
-            "type": "video",
-            "img": "../../images/alm-intro2.png",
-            "views": 10,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Illustrator",
-                    "text": "Ai",
-                    "background": "orange"
-                },
-                {
-                    "name": "AfterEffects",
-                    "text": "Ae",
-                    "background": "#5A2E99"
-                },
-                {
-                    "name": "PremierPro",
-                    "text": "Pr",
-                    "background": "#942E99"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e3393c",
-            "name": "IntroVideo",
-            "description": "IntroVideo",
-            "type": "video",
-            "img": "../../images/kearms-intro.png",
-            "views": 10,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Illustrator",
-                    "text": "Ai",
-                    "background": "orange"
-                },
-                {
-                    "name": "AfterEffects",
-                    "text": "Ae",
-                    "background": "#5A2E99"
-                },
-                {
-                    "name": "PremierPro",
-                    "text": "Pr",
-                    "background": "#942E99"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e3393d",
-            "name": "IntroVideo",
-            "description": "IntroVideo",
-            "type": "video",
-            "img": "../../images/alm-int-short.png",
-            "views": 10,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Illustrator",
-                    "text": "Ai",
-                    "background": "orange"
-                },
-                {
-                    "name": "AfterEffects",
-                    "text": "Ae",
-                    "background": "#5A2E99"
-                },
-                {
-                    "name": "PremierPro",
-                    "text": "Pr",
-                    "background": "#942E99"
-                }
-            ]
-        },
-        {
-            "_id": "53a60e30e408998878e3393e",
-            "name": "IntroVideo",
-            "description": "IntroVideo",
-            "type": "video",
-            "img": "../../images/alm-intro.png",
-            "views": 10,
-            "cools": 5,
-            "url": "/",
-            "created": 2010,
-            "tags": [
-                {
-                    "name": "Illustrator",
-                    "text": "Ai",
-                    "background": "orange"
-                },
-                {
-                    "name": "AfterEffects",
-                    "text": "Ae",
-                    "background": "#5A2E99"
-                },
-                {
-                    "name": "PremierPro",
-                    "text": "Pr",
-                    "background": "#942E99"
-                }
-            ]
-        }
-    ]
-}
+[
+    {
+        "_id": "53a60e30e408998878e3391d",
+        "name": "Alien",
+        "description": "Picture",
+        "type": "pic",
+        "img": "../../images/alien.png",
+        "views": 0,
+        "cools": 0,
+        "url": "/",
+        "download": "https://www.mediafire.com/folder/skcd5z79y2ine/Alien",
+        "created": 2010,
+        "tags": [
+            {
+                "name": "Illustrator",
+                "text": "Ai",
+                "background": "orange"
+            }
+        ]
+    },
+    {
+        "name": "Banner-1",
+        "description": "This image shows a banner of a company that I have worked for as a freelancer. It is made in Adobe Illustrator.",
+        "type": "pic",
+        "img": "../../images/alm-1.png",
+        "views": 0,
+        "cools": 0,
+        "url": "/",
+        "download": "",
+        "created": 2013,
+        "tags": [
+            {
+                "name": "Illustrator",
+                "text": "Ai",
+                "background": "orange"
+            }
+        ]
+    },
+    {
+        "name": "Banner-2",
+        "description": "This image shows a banner of a company that I have worked for as a freelancer. It is made in Adobe Illustrator.",
+        "type": "pic",
+        "img": "../../images/alm-2.png",
+        "views": 0,
+        "cools": 0,
+        "url": "/",
+        "download": "",
+        "created": 2013,
+        "tags": [
+            {
+                "name": "Illustrator",
+                "text": "Ai",
+                "background": "orange"
+            }
+        ]
+    },
+    {
+        "name": "Banner-3",
+        "description": "This image shows a banner of a company that I have worked for as a freelancer. It is made in Adobe Illustrator.",
+        "type": "pic",
+        "img": "../../images/alm-3.png",
+        "views": 0,
+        "cools": 0,
+        "url": "/",
+        "download": "",
+        "created": 2013,
+        "tags": [
+            {
+                "name": "Illustrator",
+                "text": "Ai",
+                "background": "orange"
+            }
+        ]
+    },
+    {
+        "name": "Banner-4",
+        "description": "This image shows a banner of a company that I have worked for as a freelancer. It is made in Adobe Illustrator.",
+        "type": "pic",
+        "img": "../../images/alm-4.png",
+        "views": 0,
+        "cools": 0,
+        "url": "/",
+        "download": "",
+        "created": 2013,
+        "tags": [
+            {
+                "name": "Illustrator",
+                "text": "Ai",
+                "background": "orange"
+            }
+        ]
+    },
+    {
+        "name": "Banner-5",
+        "description": "This image shows a banner of a company that I have worked for as a freelancer. It is made in Adobe Illustrator.",
+        "type": "pic",
+        "img": "../../images/alm-5.png",
+        "views": 0,
+        "cools": 0,
+        "url": "/",
+        "download": "",
+        "created": 2013,
+        "tags": [
+            {
+                "name": "Illustrator",
+                "text": "Ai",
+                "background": "orange"
+            }
+        ]
+    },
+    {
+        "name": "Banner-6",
+        "description": "This image shows a banner of a company that I have worked for as a freelancer. It is made in Adobe Illustrator.",
+        "type": "pic",
+        "img": "../../images/alm-6.png",
+        "views": 0,
+        "cools": 0,
+        "url": "/",
+        "download": "",
+        "created": 2013,
+        "tags": [
+            {
+                "name": "Illustrator",
+                "text": "Ai",
+                "background": "orange"
+            }
+        ]
+    },
+    {
+        "name": "Birla Temple",
+        "description": "This video shows a motion graphics effects for a temple. It is made in Adobe After Effects and Illustrator.",
+        "type": "pic",
+        "img": "../../images/birla.png",
+        "views": 0,
+        "cools": 0,
+        "url": "/",
+        "download": "",
+        "created": 2011,
+        "tags": [
+            {
+                "name": "Illustrator",
+                "text": "Ai",
+                "background": "orange"
+            },
+            {
+                "name": "AfterEffects",
+                "text": "Ae",
+                "background": "#5A2E99"
+            }
+        ]
+    },
+    {
+        "name": "Demo Reel",
+        "description": "This video shows bits of my work done in multimedia world. This is made is Cinema4D, After Effects and Premier Pro.",
+        "type": "video",
+        "img": "../../images/bmr.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/embed/OYDif2yRHpM",
+        "download": "",
+        "created": 2010,
+        "tags": [
+            {
+                "name": "Cinema4D",
+                "text": "C4D",
+                "background": "#263FA5"
+            },
+            {
+                "name": "AfterEffects",
+                "text": "Ae",
+                "background": "#5A2E99"
+            },
+            {
+                "name": "PremierPro",
+                "text": "Pr",
+                "background": "#942E99"
+            }
+        ]
+    },
+    {
+        "name": "ifest-09 (short)",
+        "description": "This video is the main part of the inauguration video that I have made for GITAM University's nation level Tech-Fest.",
+        "type": "video",
+        "img": "../../images/ifest.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/watch?v=ktxv3CYKKDQ",
+        "download": "",
+        "created": 2009,
+        "tags": [
+            {
+                "name": "Cinema4D",
+                "text": "C4D",
+                "background": "#263FA5"
+            },
+            {
+                "name": "PremierPro",
+                "text": "Pr",
+                "background": "#942E99"
+            }
+        ]
+    },
+    {
+        "name": "Devil face",
+        "description": "This video is a showcase of my After Effects skills. Thanks to Video Copilot for amazing tutorial on this.",
+        "type": "video",
+        "img": "../../images/devil.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/watch?v=iws_19Y1V2A",
+        "download": "",
+        "created": 2010,
+        "tags": [
+            {
+                "name": "AfterEffects",
+                "text": "Ae",
+                "background": "#5A2E99"
+            },
+            {
+                "name": "PremierPro",
+                "text": "Pr",
+                "background": "#942E99"
+            }
+        ]
+    },
+    {
+        "name": "Dual Role",
+        "description": "This video is a showcase of my After Effects skills. Thanks to Video Copilot for amazing tutorial on this.",
+        "type": "video",
+        "img": "../../images/dual.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/watch?v=Pdb1EGZouHU",
+        "download": "",
+        "created": 2010,
+        "tags": [
+            {
+                "name": "AfterEffects",
+                "text": "Ae",
+                "background": "#5A2E99"
+            },
+            {
+                "name": "PremierPro",
+                "text": "Pr",
+                "background": "#942E99"
+            }
+        ]
+    },
+    {
+        "name": "Flash Animation-1",
+        "description": "This animation video is made in flash on my friends for fun.",
+        "type": "video",
+        "img": "../../images/flash-1.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/watch?v=wHInU6lNrnc",
+        "download": "",
+        "created": 2008,
+        "tags": [
+            {
+                "name": "Flash",
+                "text": "Fl",
+                "background": "#f06060"
+            },
+            {
+                "name": "PremierPro",
+                "text": "Pr",
+                "background": "#942E99"
+            }
+        ]
+    },
+    {
+        "name": "Flash Animation-2",
+        "description": "This animation video is made in flash on my friends for fun.",
+        "type": "video",
+        "img": "../../images/flash-2.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/watch?v=fAUsG1iEX8A",
+        "download": "",
+        "created": 2008,
+        "tags": [
+            {
+                "name": "Flash",
+                "text": "Fl",
+                "background": "#f06060"
+            },
+            {
+                "name": "PremierPro",
+                "text": "Pr",
+                "background": "#942E99"
+            }
+        ]
+    },
+    {
+        "name": "Gamer",
+        "description": "This video is a shortfilm on gaming that I have made for a competition.",
+        "type": "video",
+        "img": "../../images/gamer.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/watch?v=Bjx2ajEMQGo",
+        "download": "",
+        "created": 2011,
+        "tags": [
+            {
+                "name": "AfterEffects",
+                "text": "Ae",
+                "background": "#5A2E99"
+            },
+            {
+                "name": "PremierPro",
+                "text": "Pr",
+                "background": "#942E99"
+            }
+        ]
+    },
+    {
+        "name": "Gitam Tour-Part1",
+        "description": "This video is part 1 of shortfilm that I have made for our college batch.",
+        "type": "video",
+        "img": "../../images/gitam.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/watch?v=yvgyC62-sXc",
+        "download": "",
+        "created": 2008,
+        "tags": [
+            {
+                "name": "AfterEffects",
+                "text": "Ae",
+                "background": "#5A2E99"
+            },
+            {
+                "name": "PremierPro",
+                "text": "Pr",
+                "background": "#942E99"
+            }
+        ]
+    },
+    {
+        "name": "Gitam Tour-Part2",
+        "description": "This video is part 2 of shortfilm that I have made for our college batch.",
+        "type": "video",
+        "img": "../../images/gitam.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/watch?v=AwBpfqVGzuI",
+        "download": "",
+        "created": 2008,
+        "tags": [
+            {
+                "name": "AfterEffects",
+                "text": "Ae",
+                "background": "#5A2E99"
+            },
+            {
+                "name": "PremierPro",
+                "text": "Pr",
+                "background": "#942E99"
+            }
+        ]
+    },
+    {
+        "name": "Hyderabad",
+        "description": "This video shows a motion graphics effects. It is made in Adobe After Effects and Photoshop.",
+        "type": "video",
+        "img": "../../images/hyd.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/watch?v=z_g9qLf9nSY",
+        "download": "",
+        "created": 2010,
+        "tags": [
+            {
+                "name": "Photoshop",
+                "text": "Ps",
+                "background": "#0099cc"
+            },
+            {
+                "name": "AfterEffects",
+                "text": "Ae",
+                "background": "#5A2E99"
+            }
+        ]
+    },
+    {
+        "name": "I am Mike (Trailer)",
+        "description": "This video is a trailer of my short animation films.",
+        "type": "video",
+        "img": "../../images/iammike.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/watch?v=J2D3Rx5POC8",
+        "download": "",
+        "created": 2012,
+        "tags": [
+            {
+                "name": "Cinema4D",
+                "text": "C4D",
+                "background": "#263FA5"
+            },
+            {
+                "name": "AfterEffects",
+                "text": "Ae",
+                "background": "#5A2E99"
+            },
+            {
+                "name": "PremierPro",
+                "text": "Pr",
+                "background": "#942E99"
+            }
+        ]
+    },
+    {
+        "name": "I am Mike-short",
+        "description": "This video shows a short clip of I am Mike.",
+        "type": "video",
+        "img": "../../images/iammike2.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/watch?v=1L81eY9V56A",
+        "download": "",
+        "created": 2010,
+        "tags": [
+            {
+                "name": "Cinema4D",
+                "text": "C4D",
+                "background": "#263FA5"
+            },
+            {
+                "name": "PremierPro",
+                "text": "Pr",
+                "background": "#942E99"
+            }
+        ]
+    },
+    {
+        "name": "ifest-09 (full)",
+        "description": "This is the complete inauguration video that I have made for GITAM University's nation level Tech-Fest.",
+        "type": "video",
+        "img": "../../images/ifest.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/watch?v=3oxFM_7E6b4",
+        "download": "",
+        "created": 2009,
+        "tags": [
+            {
+                "name": "Cinema4D",
+                "text": "C4D",
+                "background": "#263FA5"
+            },
+            {
+                "name": "PremierPro",
+                "text": "Pr",
+                "background": "#942E99"
+            }
+        ]
+    },
+    {
+        "name": "Gitam - ITSA",
+        "description": "This video is an inauguration video that I have made for GITAM University's Information Technology Student Association.",
+        "type": "video",
+        "img": "../../images/itsa.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/watch?v=aX-fd75rC-M",
+        "download": "",
+        "created": 2008,
+        "tags": [
+            {
+                "name": "Cinema4D",
+                "text": "C4D",
+                "background": "#263FA5"
+            },
+            {
+                "name": "PremierPro",
+                "text": "Pr",
+                "background": "#942E99"
+            }
+        ]
+    },
+    {
+        "name": "Mindtree Team Banner",
+        "description": "This image shows a banner that I have made for a team in Mindtree company.",
+        "type": "video",
+        "img": "../../images/joy.png",
+        "views": 0,
+        "cools": 0,
+        "url": "/",
+        "download": "",
+        "created": 2012,
+        "tags": [
+            {
+                "name": "Illustrator",
+                "text": "Ai",
+                "background": "orange"
+            }
+        ]
+    },
+    {
+        "name": "Manchester United",
+        "description": "This video is made on Manchester United Football Club as Red Devil fan.",
+        "type": "video",
+        "img": "../../images/manutd.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/watch?v=dsujsuXxgyo",
+        "download": "",
+        "created": 2010,
+        "tags": [
+            {
+                "name": "AfterEffects",
+                "text": "Ae",
+                "background": "#5A2E99"
+            },
+            {
+                "name": "PremierPro",
+                "text": "Pr",
+                "background": "#942E99"
+            }
+        ]
+    },
+    {
+        "name": "Mindtree Batch 2010",
+        "description": "This is a short video on Mindtree Campus Batch 2010.",
+        "type": "video",
+        "img": "../../images/mindtree.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/watch?v=U84TMP4vImI",
+        "download": "",
+        "created": 2010,
+        "tags": [
+            {
+                "name": "AfterEffects",
+                "text": "Ae",
+                "background": "#5A2E99"
+            },
+            {
+                "name": "PremierPro",
+                "text": "Pr",
+                "background": "#942E99"
+            }
+        ]
+    },
+    {
+        "name": "MRStudios",
+        "description": "This is a short video on logo animation in after effects.",
+        "type": "video",
+        "img": "../../images/mrstudios.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/watch?v=dOkUCBSKqTE",
+        "download": "",
+        "created": 2009,
+        "tags": [
+            {
+                "name": "AfterEffects",
+                "text": "Ae",
+                "background": "#5A2E99"
+            },
+            {
+                "name": "PremierPro",
+                "text": "Pr",
+                "background": "#942E99"
+            }
+        ]
+    },
+    {
+        "name": "Source (Trailer)",
+        "description": "This video is a trailer of one of my short animation films.",
+        "type": "video",
+        "img": "../../images/source.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/watch?v=i1yGy2_uKjI",
+        "download": "",
+        "created": 2008,
+        "tags": [
+            {
+                "name": "Cinema4D",
+                "text": "C4D",
+                "background": "#263FA5"
+            },
+            {
+                "name": "AfterEffects",
+                "text": "Ae",
+                "background": "#5A2E99"
+            },
+            {
+                "name": "PremierPro",
+                "text": "Pr",
+                "background": "#942E99"
+            }
+        ]
+    },
+    {
+        "name": "WALS-Mindtree",
+        "description": "This video is a short film on my Mindtree project team with motion graphics.",
+        "type": "video",
+        "img": "../../images/wals.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/watch?v=Fbf1XHjktb8",
+        "download": "",
+        "created": 2012,
+        "tags": [
+            {
+                "name": "Photoshop",
+                "text": "Ps",
+                "background": "#0099cc"
+            },
+            {
+                "name": "AfterEffects",
+                "text": "Ae",
+                "background": "#5A2E99"
+            },
+            {
+                "name": "PremierPro",
+                "text": "Pr",
+                "background": "#942E99"
+            }
+        ]
+    },
+    {
+        "name": "Intro Video 1",
+        "description": "This is an intro video of a company that I have worked for as a freelancer.",
+        "type": "video",
+        "img": "../../images/hearthealthy.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/watch?v=Y24UobjZBIM",
+        "download": "https://www.mediafire.com/folder/1jme6ikux4x61/Heart_Healthy_AZ",
+        "created": 2013,
+        "tags": [
+            {
+                "name": "Illustrator",
+                "text": "Ai",
+                "background": "orange"
+            },
+            {
+                "name": "AfterEffects",
+                "text": "Ae",
+                "background": "#5A2E99"
+            },
+            {
+                "name": "PremierPro",
+                "text": "Pr",
+                "background": "#942E99"
+            }
+        ]
+    },
+    {
+        "name": "Highlight Reel",
+        "description": "This is an highlight reel video of a company that I have worked for as a freelancer.",
+        "type": "video",
+        "img": "../../images/highlightreel.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/watch?v=DarLYR4FemU",
+        "download": "",
+        "created": 2013,
+        "tags": [
+            {
+                "name": "Illustrator",
+                "text": "Ai",
+                "background": "orange"
+            },
+            {
+                "name": "AfterEffects",
+                "text": "Ae",
+                "background": "#5A2E99"
+            },
+            {
+                "name": "PremierPro",
+                "text": "Pr",
+                "background": "#942E99"
+            }
+        ]
+    },
+    {
+        "name": "Intro Video 2",
+        "description": "This is an intro video of a company that I have worked for as a freelancer.",
+        "type": "video",
+        "img": "../../images/alm-intro2.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/watch?v=ICo4qEVC0Iw",
+        "download": "",
+        "created": 2013,
+        "tags": [
+            {
+                "name": "Illustrator",
+                "text": "Ai",
+                "background": "orange"
+            },
+            {
+                "name": "AfterEffects",
+                "text": "Ae",
+                "background": "#5A2E99"
+            },
+            {
+                "name": "PremierPro",
+                "text": "Pr",
+                "background": "#942E99"
+            }
+        ]
+    },
+    {
+        "name": "Intro Video 3",
+        "description": "This is an intro video of a company that I have worked for as a freelancer.",
+        "type": "video",
+        "img": "../../images/kearms-intro.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/watch?v=UdXpOqYiNA8",
+        "download": "https://www.mediafire.com/folder/3ou26385su9om/KE_Arms",
+        "created": 2013,
+        "tags": [
+            {
+                "name": "Illustrator",
+                "text": "Ai",
+                "background": "orange"
+            },
+            {
+                "name": "AfterEffects",
+                "text": "Ae",
+                "background": "#5A2E99"
+            },
+            {
+                "name": "PremierPro",
+                "text": "Pr",
+                "background": "#942E99"
+            }
+        ]
+    },
+    {
+        "name": "Intro Video 4",
+        "description": "This is an intro video of a company that I have worked for as a freelancer.",
+        "type": "video",
+        "img": "../../images/alm-int-short.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/watch?v=bHiDLJizMIQ",
+        "download": "https://www.mediafire.com/folder/dtqpsxu7yvcwd/ALM",
+        "created": 2013,
+        "tags": [
+            {
+                "name": "Illustrator",
+                "text": "Ai",
+                "background": "orange"
+            },
+            {
+                "name": "AfterEffects",
+                "text": "Ae",
+                "background": "#5A2E99"
+            },
+            {
+                "name": "PremierPro",
+                "text": "Pr",
+                "background": "#942E99"
+            }
+        ]
+    },
+    {
+        "name": "Intro Video 5",
+        "description": "This is an intro video of a company that I have worked for as a freelancer.",
+        "type": "video",
+        "img": "../../images/alm-intro.png",
+        "views": 0,
+        "cools": 0,
+        "url": "//www.youtube.com/watch?v=jiNcFHdURjs",
+        "download": "https://www.mediafire.com/folder/41jo8h7h7gbbd/Ground_Breaking",
+        "created": 2013,
+        "tags": [
+            {
+                "name": "Illustrator",
+                "text": "Ai",
+                "background": "orange"
+            },
+            {
+                "name": "AfterEffects",
+                "text": "Ae",
+                "background": "#5A2E99"
+            },
+            {
+                "name": "PremierPro",
+                "text": "Pr",
+                "background": "#942E99"
+            }
+        ]
+    }
+]

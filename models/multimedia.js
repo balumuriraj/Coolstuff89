@@ -12,6 +12,7 @@ var multimediaSchema = new mongoose.Schema({
     views: Number,
     cools: Number,
     url: String,
+    download: String,
     created: Number,
     tags: [{
         tagname: String,

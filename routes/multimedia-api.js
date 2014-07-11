@@ -46,6 +46,7 @@ router.route('/multimedia')
             views: b.views,
             cools: b.cools,
             url: b.url,
+            download: b.download,
             created: b.created,
             tagname: b.tagname,
             tagtext: b.tagtext,

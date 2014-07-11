@@ -6,7 +6,7 @@
         <br>
         <div ng-show="item.type == 'pic'"><img ng-src="{{item.img}}"  id="lightbox-img"></div>
         <div ng-show="item.type == 'video'"  class='youtube-container'>
-            <iframe src="{{item.url}}" frameborder="0" allowfullscreen></iframe >
+            <iframe ng-src="{{item.youtube}}" frameborder="0" allowfullscreen></iframe >
         </div>
     </div>
     <div class="wrap">
