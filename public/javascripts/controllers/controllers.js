@@ -185,3 +185,8 @@ app.controller('technicalItem-Controller', [ '$scope', '$routeParams', 'technica
 
     }
 }]);
+
+app.controller('about-Controller', [ '$scope', function ($scope) {
+
+    $scope.test = "test";
+}]);

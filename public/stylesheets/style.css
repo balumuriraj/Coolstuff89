@@ -140,7 +140,7 @@ body {
 .header-right {
     text-align: right;
     font-size: 1.5em;
-    padding: 1em;
+    padding: 1.5em;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -208,21 +208,20 @@ body {
     outline: none;
     position: relative;
     text-decoration: none;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-    padding: 1em 0.5em;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    padding: 0.5em 0.5em;
     border-bottom: 4px solid #fff;
 }
 .menu-bttn:hover {
     text-decoration: none;
-    color: #555;
-    border-bottom: 4px solid #47a3da;
+    color: #fff;
+    background: #f06060;
     opacity: 0.75;
 }
 .menu-bttn:active {
     top: 2px;
-    border-bottom: 4px solid #47a3da;
 }
 
 .menu-icon-bttn {
@@ -1476,16 +1475,184 @@ a .content-main {
     margin: 0;
     padding-left: 1em;
 }
-/**** footer ****/
 
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-.footer-section {
+/**** About Page ****/
+
+.about-page{
+    margin-top: -8px;
     background: #fff;
-    padding: 2em;
-    font-size: 1.5em;
+}
+
+.about-page-title-container{
+    padding: 4em;
+    text-align: center;
+}
+
+.about-page-pic{
+    width: 15em;
+    margin: 2em;
+}
+
+.about-page-title{
+    font-size: 3em;
+    font-family: nexalight;
+    padding: 0.5em;
+}
+
+.about-page-content{
+    font-size: 2em;
+    color: #999;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.asu{
+    text-decoration: none;
+    padding: 0 0.25em;
+    color: #fbc73b;
+}
+
+.asu:hover{
+    background: #fbc73b;
+    color: #fff;
+    text-decoration: none;
+}
+
+.about-page-social{
+    font-size: 2.75em;
+}
+
+.about-page-social a{
+   color: #999;
+}
+
+.about-page-social a:hover{
+    text-decoration: none;
+}
+
+.about-page-social span{
+    padding: 0.5em;
+}
+.about-page-social span:hover{
+    background: #f06060;
+    color: #fff;
+    text-decoration: none;
+}
+
+.about-page-body-container {
+    position: relative;
+}
+
+.about-page-body-container .timeline-bar{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 4px;
+    background: #ddd;
+}
+
+.stats-block{
+    padding: 5em;
+    color: #999;
+    text-align: center;
+    cursor: pointer;
+}
+
+.stats-block:hover{
+    background: #eee;
+}
+
+.stats-innerblock{
+    text-align: center;
+}
+.stats-innerblock p{
     margin: 0;
 }
+.stats-innerblock p:first-child{
+    color: #bbb;
+    font-size: 3.5em;
+}
+
+.stats-innerblock p:first-child span{
+    color: #ddd;
+    font-size: 0.5em;
+}
+
+.stats-innerblock p:nth-child(2){
+    color: #f06060;
+    font-size: 3.5em;
+}
+
+.stats-innerblock p:nth-child(2) span{
+    font-size: 0.5em;
+}
+
+.skills-block{
+    padding: 1em;
+    color: #ddd;
+    font-size: 2.5em;
+    cursor: pointer;
+    text-align: center;
+}
+.skills-block:hover{
+    color: #999;
+}
+.timeline-title{
+    font-size: 4em;
+    background: #f06060;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+.timeline-block{
+    display: block;
+    margin: 10em 0;
+}
+
+.timeline-year {
+    font-size: 1.75em;
+    color: #999;
+    line-height: 3em;
+}
+
+.timeline-icon {
+    display: block;
+}
+
+.timeline-icon span{
+    font-size: 5em;
+    color: #f06060;
+    background: #fff;
+    padding: 0.5em;
+    border-radius: 10em;
+    box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.timeline-content {
+    font-size: 1.75em;
+    border-radius: 4px;
+    box-shadow: 0 3px 0 #ddd;
+    color: #999;
+    background: #fff;
+    padding: 1em;
+}
+
+/**** footer ****/
+
+.about-footer{
+    position: relative;
+    bottom: 0;
+    background: #555;
+    padding: 5em;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+}
+
+.about-footer p{
+    margin: 0;
+}
+
+

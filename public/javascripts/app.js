@@ -30,7 +30,7 @@ app.config(function ($routeProvider) {
     
         .when('/about',
             {
-                controller: 'aboutController',
+                controller: 'about-Controller',
                 templateUrl: '/javascripts/partials/about.html'
             })
         .otherwise({ redirectTo: '/' });
