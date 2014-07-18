@@ -1,4 +1,4 @@
-var app = angular.module('coolStuffApp',['ngRoute']);
+var app = angular.module('coolStuffApp',['ngRoute', 'app.directives.youtube']);
 
 //This configures the routes and associates each route with a view and a controller
 app.config(function ($routeProvider) {

@@ -4,9 +4,9 @@
     <div  class="lightbox" id="lightbox">
         <button onclick="hidelightbox()"><span class="icon-x"></span> Close</button>
         <br>
-        <div ng-show="item.type == 'pic'"><img ng-src="{{item.img}}"  id="lightbox-img"></div>
-        <div ng-show="item.type == 'video'"  class='youtube-container'>
-            <iframe ng-src="{{item.youtube}}" frameborder="0" allowfullscreen></iframe >
+        <div ng-show="item.type == 'pic'"><img src="{{item.img}}"  id="lightbox-img"></div>
+        <div ng-show="item.type == 'video'"  class='youtube-container' id="lightbox-video">
+            <youtube code="item.url"></youtube>
         </div>
     </div>
     <div class="wrap">
@@ -50,7 +50,8 @@
                             <br>
                             <p class="item-description">{{item.description}}</p>
                             <br>
-                            <button class="bttn"><span class="icon-download5"></span> Download Project</button>
+                            <a ng-if="item.download != ''" href="{{item.download}}" target="_blank" class="bttn"><span class="icon-download5"></span> Download Project</a>
+                            <p ng-if="item.download == ''" style="font-size: 2em; margin: 0;">Download not available</p>
                             <br>
                             <p class="item-box-views">{{item.cools}} <span class="hidden-xs">cools</span> | {{item.views}} <span class="hidden-xs">views</span></p>
                         </div>
@@ -112,10 +113,19 @@
 
     function showlightbox(){
         var img = $("#lightbox-img");
+        var vid = $("#lightbox-video");
         var lightbox = $("#lightbox");
 
         lightbox.css({
             'visibility': 'visible'
+        });
+
+        vid.css({
+            '-webkit-transform': 'scale(1)',
+            '-moz-transform': 'scale(1)',
+            '-o-transform': 'scale(1)',
+            'transform': 'scale(1)',
+            'opacity': '1'
         });
 
         img.css({
@@ -129,10 +139,19 @@
 
     function hidelightbox(){
         var img = $("#lightbox-img");
+        var vid = $("#lightbox-video");
         var lightbox = $("#lightbox");
 
         lightbox.css({
             'visibility': 'hidden'
+        });
+
+        vid.css({
+            '-webkit-transform': 'scale(0)',
+            '-moz-transform': 'scale(0)',
+            '-o-transform': 'scale(0)',
+            'transform': 'scale(0)',
+            'opacity': '0'
         });
 
         img.css({
