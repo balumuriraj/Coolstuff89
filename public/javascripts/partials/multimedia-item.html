@@ -51,7 +51,7 @@
                             <p class="item-description">{{item.description}}</p>
                             <br>
                             <a ng-if="item.download != ''" href="{{item.download}}" target="_blank" class="bttn"><span class="icon-download5"></span> Download Project</a>
-                            <p ng-if="item.download == ''" style="font-size: 2em; margin: 0;">Download not available</p>
+                            <p ng-if="item.download == ''" style="display: inline; font-size: 1.5em; margin: 0; background: #f06060; padding: 0.5em; color: #fff;"><span class="icon-sad"></span> Download not available</p>
                             <br>
                             <p class="item-box-views">{{item.cools}} <span class="hidden-xs">cools</span> | {{item.views}} <span class="hidden-xs">views</span></p>
                         </div>

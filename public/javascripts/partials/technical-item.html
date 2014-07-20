@@ -41,14 +41,15 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <button class="bttn" id="livedemo" onclick=""><span class="icon-fire"></span> live demo</button>
+                                <a href="{{item.live}}" class="bttn" id="livedemo" target="_blank"><span class="icon-fire"></span> live demo</a>
                             </div>
                             <br>
                             <p class="item-description">{{item.description}}</p>
-                            <br>
+                            <br><br>
 
 
-                            <button class="bttn"><span class="icon-github3"></span> Download Project from Github</button>
+                            <a ng-if="item.url != ''" href="{{item.url}}" target="_blank" class="bttn"><span class="icon-github3"></span> Download Project from Github</a>
+                            <p ng-if="item.url == ''" style="display: inline; font-size: 1.5em; margin: 0; background: #f06060; padding: 0.5em; color: #fff;"><span class="icon-sad"></span> Download not available</p>
                             <br>
                             <p class="item-box-views">{{item.cools}} <span class="hidden-xs">cools</span> | {{item.views}} <span class="hidden-xs">views</span></p>
                         </div>

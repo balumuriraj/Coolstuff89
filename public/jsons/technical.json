@@ -11,8 +11,8 @@
         "img": "../../images/easysaas.png",
         "views": 0,
         "cools": 0,
-        "live": "",
-        "url": "/",
+        "live": "https://www.youtube.com/watch?v=cGkJDWTX1Ns",
+        "url": "https://github.com/balumuriraj/EasySaas-Runtime.git",
         "created": 2014,
         "contributors": "Group"
     },
@@ -29,7 +29,7 @@
         "views": 0,
         "cools": 0,
         "live": "",
-        "url": "/",
+        "url": "https://github.com/balumuriraj/Secure-Banking-System.git",
         "created": 2013,
         "contributors": "Group"
     },
@@ -46,7 +46,7 @@
         "views": 0,
         "cools": 0,
         "live": "",
-        "url": "/",
+        "url": "https://github.com/balumuriraj/Secure-Banking-System.git",
         "created": 2013,
         "contributors": "Group"
     },
@@ -63,7 +63,7 @@
         "views": 0,
         "cools": 0,
         "live": "",
-        "url": "/",
+        "url": "https://github.com/balumuriraj/Gesture-Search-Engine.git",
         "created": 2013,
         "contributors": "Group"
     },
@@ -80,7 +80,7 @@
         "views": 0,
         "cools": 0,
         "live": "",
-        "url": "/",
+        "url": "https://github.com/balumuriraj/Event-Driven-Programming.git",
         "created": 2014,
         "contributors": "Individual"
     },
@@ -97,7 +97,7 @@
         "views": 0,
         "cools": 0,
         "live": "",
-        "url": "/",
+        "url": "https://github.com/balumuriraj/Online-Shopping.git",
         "created": 2014,
         "contributors": "Individual"
     },
@@ -114,7 +114,7 @@
         "views": 0,
         "cools": 0,
         "live": "",
-        "url": "/",
+        "url": "https://github.com/balumuriraj/CCNX-Chat-Application.git",
         "created": 2013,
         "contributors": "Individual"
     },
@@ -131,7 +131,7 @@
         "views": 0,
         "cools": 0,
         "live": "",
-        "url": "/",
+        "url": "https://github.com/balumuriraj/Applied-Crypto.git",
         "created": 2014,
         "contributors": "Individual"
     },
@@ -147,8 +147,8 @@
         "img": "../../images/discovery.png",
         "views": 0,
         "cools": 0,
-        "live": "discovery.a2c2.asu.edu",
-        "url": "/",
+        "live": "http://discovery.a2c2.asu.edu/",
+        "url": "",
         "created": 2014,
         "contributors": "Individual"
     },
@@ -165,7 +165,7 @@
         "views": 0,
         "cools": 0,
         "live": "",
-        "url": "/",
+        "url": "https://github.com/balumuriraj/Zappos-Gift-Giving.git",
         "created": 2014,
         "contributors": "Individual"
     },
@@ -182,7 +182,7 @@
         "views": 0,
         "cools": 0,
         "live": "",
-        "url": "/",
+        "url": "https://github.com/balumuriraj/sum-of-multiples.git",
         "created": 2014,
         "contributors": "Individual"
     },
@@ -198,8 +198,8 @@
         "img": "../../images/a2c2.png",
         "views": 0,
         "cools": 0,
-        "live": "a2c2.asu.edu",
-        "url": "/",
+        "live": "http://a2c2.asu.edu/",
+        "url": "",
         "created": 2013,
         "contributors": "Individual"
     },
@@ -215,8 +215,8 @@
         "img": "../../images/coolstuff1989.png",
         "views": 0,
         "cools": 0,
-        "live": "coolstuff1989.co.nf",
-        "url": "/",
+        "live": "http://coolstuff1989.co.nf/",
+        "url": "https://github.com/balumuriraj/coolstuff1989--old-.git",
         "created": 2013,
         "contributors": "Individual"
     },
@@ -232,8 +232,8 @@
         "img": "../../images/coolstuff89.png",
         "views": 0,
         "cools": 0,
-        "live": "coolstuff89.herokuapp.com",
-        "url": "/",
+        "live": "http://coolstuff89.herokuapp.com/",
+        "url": "https://github.com/balumuriraj/Coolstuff89.git",
         "created": 2014,
         "contributors": "Individual"
     }
