@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow:
+
+Sitemap: http://www.coolstuff89.com/sitemap.xml
