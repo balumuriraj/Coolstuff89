@@ -6,11 +6,10 @@
 // call the packages we need
 var express = require('express');
 var path = require('path');
-var favicon = require('static-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var mongoose = require('mongoose');
+// var mongoose = require('mongoose');
 
 var routes = require('./routes/index');
 var multimediaapi = require('./routes/multimedia-api');
@@ -23,17 +22,18 @@ app.set('views', path.join(__dirname, 'views'));
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
 
-app.use(favicon());
 app.use(logger('dev'));                                     // log every request to the console
 app.use(bodyParser.json());                                 // pull information from html in POST
-app.use(bodyParser.urlencoded());                           // pull information from html in POST
+app.use(bodyParser.urlencoded({
+  extended: false
+}));                           // pull information from html in POST
 app.use(cookieParser());                                    // used for csrf
                                                             // need methodOverride to simulate DELETE and PUT
 app.use(express.static(path.join(__dirname, 'public')));    // set the static files location /public/img will be /img for users
 
 //Connect to DB
 //mongoose.connect("mongodb://localhost/cs89_db");
-mongoose.connect("mongodb://coolstuff89:mohanraj@kahana.mongohq.com:10019/cs89_db");
+// mongoose.connect("mongodb://coolstuff89:mohanraj@kahana.mongohq.com:10019/cs89_db");
 
 // REGISTER OUR ROUTES -------------------------------
 app.use('/', routes);       // all of our routes will be prefixed with /

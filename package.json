@@ -7,20 +7,19 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "express": "~4.2.0",
-    "static-favicon": "~1.0.0",
-    "morgan": "~1.0.0",
-    "cookie-parser": "~1.0.1",
-    "body-parser": "~1.0.0",
-    "debug": "~0.7.4",
-    "ejs": "~0.8.5",
-    "mongoose": "3.8.12"
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.6.8",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.4",
+    "morgan": "^1.8.2"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/balumuriraj/Coolstuff89.git"
   },
   "engines": {
-    "node": "0.10.29"
+    "node": "^6.11.1"
   }
 }

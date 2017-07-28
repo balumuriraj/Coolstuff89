@@ -4,9 +4,6 @@
       <env name="DEBUG" value="Coolstuff89" />
     </envs>
     <browser url="http://localhost:3000/" />
-    <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
-      <browser url="http://localhost:3000/" />
-    </EXTENSION>
     <RunnerSettings RunnerId="NodeJS.run" />
     <ConfigurationWrapper RunnerId="NodeJS.run" />
     <method />
