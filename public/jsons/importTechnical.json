@@ -1,0 +1,239 @@
+
+{
+  "name": "EasySaas Runtime",
+  "description": "Academic project in Software Design course. Designed and Implemented Easy Saas Runtime Application. The application allows users to log in and create a number of customized application and performed CRUD application. Schema-less behavior of Mongo DB is used to support Multi Tenancy.",
+  "type": "Web Application",
+  "technologies": {
+    "frontend": ["HTML5", "CSS3", "JavaScript", "Jquery", "JSP"],
+    "backend": ["Java", "spring", "Maven"],
+    "database": ["mongoDB"]
+  },
+  "img": "../../images/easysaas.png",
+  "views": 0,
+  "cools": 0,
+  "live": "https://www.youtube.com/watch?v=cGkJDWTX1Ns",
+  "url": "https://github.com/balumuriraj/EasySaas-Runtime.git",
+  "created": 2014,
+  "contributors": "Group"
+}
+{
+  "name": "Secure Banking System",
+  "description": "Academic project in Software Security course. Developed a software system that facilitates secure banking transactions and user account management. Used spring framework to implement secure authentication/authorization mechanisms and Hibernate to facilitate secure database transactions. Implemented secure software design patterns like securing weakest link, defense in depth and failing securely. Prevented the security attacks and vulnerabilities such as XSS, SQL injection and Session hijacking. Public key Infrastructure, One time password and secure HTTPS connections were implemented.",
+  "type": "Web Application",
+  "technologies": {
+    "frontend": ["HTML", "CSS", "JavaScript", "Jquery", "JSP"],
+    "backend": ["Java", "spring", "Maven"],
+    "database": ["MySql"]
+  },
+  "img": "../../images/banking.png",
+  "views": 0,
+  "cools": 0,
+  "live": "",
+  "url": "https://github.com/balumuriraj/Secure-Banking-System.git",
+  "created": 2013,
+  "contributors": "Group"
+}
+{
+  "name": "Message Passing in Client Server Application",
+  "description": "Academic project in Distributed Multiprocessor Operating System course. Developed a multithreaded client server application that does message passing via ports with semaphores implementation using NON-preemptive scheduling that works on most Unix/Linux OS.",
+  "type": "Desktop Application",
+  "technologies": {
+    "frontend": [],
+    "backend": ["C"],
+    "database": []
+  },
+  "img": "../../images/message.png",
+  "views": 0,
+  "cools": 0,
+  "live": "",
+  "url": "https://github.com/balumuriraj/Secure-Banking-System.git",
+  "created": 2013,
+  "contributors": "Group"
+}
+{
+  "name": "Gesture Search Engine",
+  "description": "Academic project in Multimedia and Web Databases course. This project is performed on various multivariate gesture datasets where each gesture is represented by the recordings of 20 sensors, each in turn has 4 components W, X, Y, Z. Firstly, for a given gesture dataset, we have calculated TF, TF-IDF and TF-IDF2 vectors for each gesture file to form the gesture database. We used these vectors for similarity search to retrieve files similar to a query gesture. Then, we have performed dimensionality reduction on this database using the techniques Principal Components Analysis (PCA), Singular Value Decomposition (SVD) and Latent Dirichlet Allocation (LDA) to improve efficiency. Then we have developed clusters by performing PCA and SVD on gesture-gesture similarity matrix (unsupervised learning). In the final phase, we have developed a random hash function based index structure for the database using Locality Sensitive Hashing (LSH) technique and used it for similarity search. Then we have performed gesture classification using n-ary Support Vector Machines (SVM), k-Nearest Neighbor (k-NN) and decision tree based algorithms (supervised learning) to learn the classes of unclassified data.",
+  "type": "Desktop Application",
+  "technologies": {
+    "frontend": ["Java Swings"],
+    "backend": ["Java", "Matlab"],
+    "database": []
+  },
+  "img": "../../images/gesture.png",
+  "views": 0,
+  "cools": 0,
+  "live": "",
+  "url": "https://github.com/balumuriraj/Gesture-Search-Engine.git",
+  "created": 2013,
+  "contributors": "Group"
+}
+{
+  "name": "Event Driven Programming",
+  "description": "Academic project in Distributed Software Development course. Implemented Chicken Farm Application using the C# delegates and Event Driven Programming. The Chicken Farm was the Service providers and multiple Booking agencies were the service requesters. The service requesters were notified when there was a price cut in the chicken prices. Implemented synchronization using semaphores and locks.",
+  "type": "Desktop Application",
+  "technologies": {
+    "frontend": [],
+    "backend": ["C#"],
+    "database": []
+  },
+  "img": "../../images/event.png",
+  "views": 0,
+  "cools": 0,
+  "live": "",
+  "url": "https://github.com/balumuriraj/Event-Driven-Programming.git",
+  "created": 2014,
+  "contributors": "Individual"
+}
+{
+  "name": "Online Shopping",
+  "description": "Academic project in Distributed Software Development course. Learned and applied service oriented architecture principles to Design an Online shopping application. Developed and Deployed WCF web services and implemented an application consuming the web services.",
+  "type": "Web Application",
+  "technologies": {
+    "frontend": ["HTML", "CSS", "JavaScript", "Jquery"],
+    "backend": ["C#"],
+    "database": ["XML"]
+  },
+  "img": "../../images/shopping.png",
+  "views": 0,
+  "cools": 0,
+  "live": "",
+  "url": "https://github.com/balumuriraj/Online-Shopping.git",
+  "created": 2014,
+  "contributors": "Individual"
+}
+{
+  "name": "CCNX Chat Application",
+  "description": "Academic project in Advanced Computer Networks course. This is Java chat application in Content Centric Network environment. It has the features of text and multimedia transfers.",
+  "type": "Desktop Application",
+  "technologies": {
+    "frontend": ["Java Swings"],
+    "backend": ["Java", "CCNX"],
+    "database": []
+  },
+  "img": "../../images/chat.png",
+  "views": 0,
+  "cools": 0,
+  "live": "",
+  "url": "https://github.com/balumuriraj/CCNX-Chat-Application.git",
+  "created": 2013,
+  "contributors": "Individual"
+}
+{
+  "name": "Applied Cryptography",
+  "description": "Academic project in Applied Cryptography course.",
+  "type": "Desktop Application",
+  "technologies": {
+    "frontend": [],
+    "backend": ["Java"],
+    "database": []
+  },
+  "img": "../../images/crypto.png",
+  "views": 0,
+  "cools": 0,
+  "live": "",
+  "url": "https://github.com/balumuriraj/Applied-Crypto.git",
+  "created": 2014,
+  "contributors": "Individual"
+}
+{
+  "name": "Discovery Lab",
+  "description": "Graduate Assistantship project. It is an interactive Lab with numerous questions that helps honing the skills of the students and will be included in the course work at ASU from 2015.",
+  "type": "Web Application",
+  "technologies": {
+    "frontend": ["AngularJS","HTML5", "CSS3", "JavaScript", "Jquery", "JSP"],
+    "backend": ["Java", "spring", "Maven"],
+    "database": ["MySql"]
+  },
+  "img": "../../images/discovery.png",
+  "views": 0,
+  "cools": 0,
+  "live": "http://discovery.a2c2.asu.edu/",
+  "url": "",
+  "created": 2014,
+  "contributors": "Individual"
+}
+{
+  "name": "Zappos gift giving",
+  "description": "Individual project. This application allows a user to submit desired # of products and desired dollar amount. The application takes both inputs and leverage the Zappos API and creates a list of Zappos products whose combined values match as closely as possible to given dollar amount. This is a web application developed in JAVA using Spring framework. It uses resttemplate to communicate with the Zappos Rest Web Service and retrieves a JSON object. The application uses jackson-mapper-asl to convert JSON object retrieved from the Zappos API into Java Objects.",
+  "type": "Web Application",
+  "technologies": {
+    "frontend": ["HTML5", "CSS3", "JavaScript", "Jquery", "JSP"],
+    "backend": ["Java", "spring", "Maven", "zappos Rest service"],
+    "database": []
+  },
+  "img": "../../images/zappos.png",
+  "views": 0,
+  "cools": 0,
+  "live": "",
+  "url": "https://github.com/balumuriraj/Zappos-Gift-Giving.git",
+  "created": 2014,
+  "contributors": "Individual"
+}
+{
+  "name": "Sum of multiples",
+  "description": "Individual fun project. This is the solution to Project Euler website's first problem in Java. If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below 1000.",
+  "type": "Desktop Application",
+  "technologies": {
+    "frontend": [],
+    "backend": ["Java"],
+    "database": []
+  },
+  "img": "../../images/multiples.png",
+  "views": 0,
+  "cools": 0,
+  "live": "",
+  "url": "https://github.com/balumuriraj/sum-of-multiples.git",
+  "created": 2014,
+  "contributors": "Individual"
+}
+{
+  "name": "A2C2 Website",
+  "description": "This is my Student Web Developer project. This website is developed using HTML/CSS, PHP, Javascript, JQuery, LDAP, Wordpress and XML in Linux environment. This also consists a web application in PHP, AJAX and MYSQL which is a software library that displays all the softwares available, stats and their categories.",
+  "type": "Web Application",
+  "technologies": {
+    "frontend": ["HTML", "CSS", "JavaScript", "Jquery", "AJAX"],
+    "backend": ["PHP", "Wordpress"],
+    "database": ["MySql"]
+  },
+  "img": "../../images/a2c2.png",
+  "views": 0,
+  "cools": 0,
+  "live": "http://a2c2.asu.edu/",
+  "url": "",
+  "created": 2013,
+  "contributors": "Individual"
+}
+{
+  "name": "coolstuff1989 Website (old)",
+  "description": "This is my first website (so, please bear, this may look ugly). This website is developed using HTML/CSS, PHP, Javascript, JQuery and Wordpress. It shows my multimedia work only. This also has user account management.",
+  "type": "Web Application",
+  "technologies": {
+    "frontend": ["HTML", "CSS", "JavaScript", "Jquery"],
+    "backend": ["PHP", "Wordpress"],
+    "database": ["MySql"]
+  },
+  "img": "../../images/coolstuff1989.png",
+  "views": 0,
+  "cools": 0,
+  "live": "http://coolstuff1989.co.nf/",
+  "url": "https://github.com/balumuriraj/coolstuff1989--old-.git",
+  "created": 2013,
+  "contributors": "Individual"
+}
+{
+  "name": "coolstuff89 Website (new)",
+  "description": "This is my portfolio website (the one you are in, now). This website shows my multimedia and technical projects. You can also download the source codes for free.",
+  "type": "Web Application",
+  "technologies": {
+    "frontend": ["AngularJS", "HTML5", "CSS3", "JavaScript", "Jquery", "FullpageJS"],
+    "backend": ["NodeJS", "ExpressJS"],
+    "database": ["mongoDB"]
+  },
+  "img": "../../images/coolstuff89.png",
+  "views": 0,
+  "cools": 0,
+  "live": "http://coolstuff89.herokuapp.com/",
+  "url": "https://github.com/balumuriraj/Coolstuff89.git",
+  "created": 2014,
+  "contributors": "Individual"
+}

@@ -5,11 +5,12 @@
 
 // call the packages we need
 var express = require('express');
+var favicon = require('serve-favicon');
 var path = require('path');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-// var mongoose = require('mongoose');
+var mongoose = require('mongoose');
 
 var routes = require('./routes/index');
 var multimediaapi = require('./routes/multimedia-api');
@@ -22,6 +23,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
 
+app.use(favicon(path.join(__dirname, 'public/images', 'logo-only.png')));
 app.use(logger('dev'));                                     // log every request to the console
 app.use(bodyParser.json());                                 // pull information from html in POST
 app.use(bodyParser.urlencoded({
@@ -32,8 +34,9 @@ app.use(cookieParser());                                    // used for csrf
 app.use(express.static(path.join(__dirname, 'public')));    // set the static files location /public/img will be /img for users
 
 //Connect to DB
-//mongoose.connect("mongodb://localhost/cs89_db");
+// mongoose.connect("mongodb://localhost/cs89_db", { useMongoClient: true });
 // mongoose.connect("mongodb://coolstuff89:mohanraj@kahana.mongohq.com:10019/cs89_db");
+mongoose.connect("mongodb://coolstuff89:Balumuri1989@coolcluster-shard-00-00-wfsvs.mongodb.net:27017,coolcluster-shard-00-01-wfsvs.mongodb.net:27017,coolcluster-shard-00-02-wfsvs.mongodb.net:27017/cs89_db?ssl=true&replicaSet=CoolCluster-shard-0&authSource=admin");
 
 // REGISTER OUR ROUTES -------------------------------
 app.use('/', routes);       // all of our routes will be prefixed with /

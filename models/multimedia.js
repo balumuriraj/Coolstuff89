@@ -21,4 +21,4 @@ var multimediaSchema = new mongoose.Schema({
     }]
 });
 
-module.exports = mongoose.model('multimedias', multimediaSchema);
+module.exports = mongoose.model('multimedia', multimediaSchema);

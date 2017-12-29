@@ -1,0 +1,792 @@
+{
+  "name": "Alien",
+  "description": "This image shows an alien character. It is made in Adobe Illustrator.",
+  "type": "pic",
+  "img": "../../images/alien.png",
+  "views": 0,
+  "cools": 0,
+  "url": "/",
+  "download": "https://www.mediafire.com/folder/skcd5z79y2ine/Alien",
+  "created": 2010,
+  "tags": [
+    {
+      "name": "Illustrator",
+      "text": "Ai",
+      "background": "orange"
+    }
+  ]
+}
+{
+  "name": "Banner-1",
+  "description": "This image shows a banner of a company that I have worked for as a freelancer. It is made in Adobe Illustrator.",
+  "type": "pic",
+  "img": "../../images/alm-1.png",
+  "views": 0,
+  "cools": 0,
+  "url": "/",
+  "download": "",
+  "created": 2013,
+  "tags": [
+    {
+      "name": "Illustrator",
+      "text": "Ai",
+      "background": "orange"
+    }
+  ]
+}
+{
+  "name": "Banner-2",
+  "description": "This image shows a banner of a company that I have worked for as a freelancer. It is made in Adobe Illustrator.",
+  "type": "pic",
+  "img": "../../images/alm-2.png",
+  "views": 0,
+  "cools": 0,
+  "url": "/",
+  "download": "",
+  "created": 2013,
+  "tags": [
+    {
+      "name": "Illustrator",
+      "text": "Ai",
+      "background": "orange"
+    }
+  ]
+}
+{
+  "name": "Banner-3",
+  "description": "This image shows a banner of a company that I have worked for as a freelancer. It is made in Adobe Illustrator.",
+  "type": "pic",
+  "img": "../../images/alm-3.png",
+  "views": 0,
+  "cools": 0,
+  "url": "/",
+  "download": "",
+  "created": 2013,
+  "tags": [
+    {
+      "name": "Illustrator",
+      "text": "Ai",
+      "background": "orange"
+    }
+  ]
+}
+{
+  "name": "Banner-4",
+  "description": "This image shows a banner of a company that I have worked for as a freelancer. It is made in Adobe Illustrator.",
+  "type": "pic",
+  "img": "../../images/alm-4.png",
+  "views": 0,
+  "cools": 0,
+  "url": "/",
+  "download": "",
+  "created": 2013,
+  "tags": [
+    {
+      "name": "Illustrator",
+      "text": "Ai",
+      "background": "orange"
+    }
+  ]
+}
+{
+  "name": "Banner-5",
+  "description": "This image shows a banner of a company that I have worked for as a freelancer. It is made in Adobe Illustrator.",
+  "type": "pic",
+  "img": "../../images/alm-5.png",
+  "views": 0,
+  "cools": 0,
+  "url": "/",
+  "download": "",
+  "created": 2013,
+  "tags": [
+    {
+      "name": "Illustrator",
+      "text": "Ai",
+      "background": "orange"
+    }
+  ]
+}
+{
+  "name": "Banner-6",
+  "description": "This image shows a banner of a company that I have worked for as a freelancer. It is made in Adobe Illustrator.",
+  "type": "pic",
+  "img": "../../images/alm-6.png",
+  "views": 0,
+  "cools": 0,
+  "url": "/",
+  "download": "",
+  "created": 2013,
+  "tags": [
+    {
+      "name": "Illustrator",
+      "text": "Ai",
+      "background": "orange"
+    }
+  ]
+}
+{
+  "name": "Birla Temple",
+  "description": "This video shows a motion graphics effects for a temple. It is made in Adobe After Effects and Illustrator.",
+  "type": "pic",
+  "img": "../../images/birla.png",
+  "views": 0,
+  "cools": 0,
+  "url": "/",
+  "download": "",
+  "created": 2011,
+  "tags": [
+    {
+      "name": "Illustrator",
+      "text": "Ai",
+      "background": "orange"
+    },
+    {
+      "name": "AfterEffects",
+      "text": "Ae",
+      "background": "#5A2E99"
+    }
+  ]
+}
+{
+  "name": "Demo Reel",
+  "description": "This video shows bits of my work done in multimedia world. This is made is Cinema4D, After Effects and Premier Pro.",
+  "type": "video",
+  "img": "../../images/bmr.png",
+  "views": 0,
+  "cools": 0,
+  "url": "OYDif2yRHpM",
+  "download": "",
+  "created": 2010,
+  "tags": [
+    {
+      "name": "Cinema4D",
+      "text": "C4D",
+      "background": "#263FA5"
+    },
+    {
+      "name": "AfterEffects",
+      "text": "Ae",
+      "background": "#5A2E99"
+    },
+    {
+      "name": "PremierPro",
+      "text": "Pr",
+      "background": "#942E99"
+    }
+  ]
+}
+{
+  "name": "ifest-09 (short)",
+  "description": "This video is the main part of the inauguration video that I have made for GITAM University's nation level Tech-Fest.",
+  "type": "video",
+  "img": "../../images/ifest.png",
+  "views": 0,
+  "cools": 0,
+  "url": "ktxv3CYKKDQ",
+  "download": "",
+  "created": 2009,
+  "tags": [
+    {
+      "name": "Cinema4D",
+      "text": "C4D",
+      "background": "#263FA5"
+    },
+    {
+      "name": "PremierPro",
+      "text": "Pr",
+      "background": "#942E99"
+    }
+  ]
+}
+{
+  "name": "Devil face",
+  "description": "This video is a showcase of my After Effects skills. Thanks to Video Copilot for amazing tutorial on this.",
+  "type": "video",
+  "img": "../../images/devil.png",
+  "views": 0,
+  "cools": 0,
+  "url": "iws_19Y1V2A",
+  "download": "",
+  "created": 2010,
+  "tags": [
+    {
+      "name": "AfterEffects",
+      "text": "Ae",
+      "background": "#5A2E99"
+    },
+    {
+      "name": "PremierPro",
+      "text": "Pr",
+      "background": "#942E99"
+    }
+  ]
+}
+{
+  "name": "Dual Role",
+  "description": "This video is a showcase of my After Effects skills. Thanks to Video Copilot for amazing tutorial on this.",
+  "type": "video",
+  "img": "../../images/dual.png",
+  "views": 0,
+  "cools": 0,
+  "url": "Pdb1EGZouHU",
+  "download": "",
+  "created": 2010,
+  "tags": [
+    {
+      "name": "AfterEffects",
+      "text": "Ae",
+      "background": "#5A2E99"
+    },
+    {
+      "name": "PremierPro",
+      "text": "Pr",
+      "background": "#942E99"
+    }
+  ]
+}
+{
+  "name": "Flash Animation-1",
+  "description": "This animation video is made in flash on my friends for fun.",
+  "type": "video",
+  "img": "../../images/flash-1.png",
+  "views": 0,
+  "cools": 0,
+  "url": "wHInU6lNrnc",
+  "download": "",
+  "created": 2008,
+  "tags": [
+    {
+      "name": "Flash",
+      "text": "Fl",
+      "background": "#f06060"
+    },
+    {
+      "name": "PremierPro",
+      "text": "Pr",
+      "background": "#942E99"
+    }
+  ]
+}
+{
+  "name": "Flash Animation-2",
+  "description": "This animation video is made in flash on my friends for fun.",
+  "type": "video",
+  "img": "../../images/flash-2.png",
+  "views": 0,
+  "cools": 0,
+  "url": "fAUsG1iEX8A",
+  "download": "",
+  "created": 2008,
+  "tags": [
+    {
+      "name": "Flash",
+      "text": "Fl",
+      "background": "#f06060"
+    },
+    {
+      "name": "PremierPro",
+      "text": "Pr",
+      "background": "#942E99"
+    }
+  ]
+}
+{
+  "name": "Gamer",
+  "description": "This video is a shortfilm on gaming that I have made for a competition.",
+  "type": "video",
+  "img": "../../images/gamer.png",
+  "views": 0,
+  "cools": 0,
+  "url": "Bjx2ajEMQGo",
+  "download": "",
+  "created": 2011,
+  "tags": [
+    {
+      "name": "AfterEffects",
+      "text": "Ae",
+      "background": "#5A2E99"
+    },
+    {
+      "name": "PremierPro",
+      "text": "Pr",
+      "background": "#942E99"
+    }
+  ]
+}
+{
+  "name": "Gitam Tour-Part1",
+  "description": "This video is part 1 of shortfilm that I have made for our college batch.",
+  "type": "video",
+  "img": "../../images/gitam.png",
+  "views": 0,
+  "cools": 0,
+  "url": "yvgyC62-sXc",
+  "download": "",
+  "created": 2008,
+  "tags": [
+    {
+      "name": "AfterEffects",
+      "text": "Ae",
+      "background": "#5A2E99"
+    },
+    {
+      "name": "PremierPro",
+      "text": "Pr",
+      "background": "#942E99"
+    }
+  ]
+}
+{
+  "name": "Gitam Tour-Part2",
+  "description": "This video is part 2 of shortfilm that I have made for our college batch.",
+  "type": "video",
+  "img": "../../images/gitam.png",
+  "views": 0,
+  "cools": 0,
+  "url": "AwBpfqVGzuI",
+  "download": "",
+  "created": 2008,
+  "tags": [
+    {
+      "name": "AfterEffects",
+      "text": "Ae",
+      "background": "#5A2E99"
+    },
+    {
+      "name": "PremierPro",
+      "text": "Pr",
+      "background": "#942E99"
+    }
+  ]
+}
+{
+  "name": "Hyderabad",
+  "description": "This video shows a motion graphics effects. It is made in Adobe After Effects and Photoshop.",
+  "type": "video",
+  "img": "../../images/hyd.png",
+  "views": 0,
+  "cools": 0,
+  "url": "z_g9qLf9nSY",
+  "download": "",
+  "created": 2010,
+  "tags": [
+    {
+      "name": "Photoshop",
+      "text": "Ps",
+      "background": "#0099cc"
+    },
+    {
+      "name": "AfterEffects",
+      "text": "Ae",
+      "background": "#5A2E99"
+    }
+  ]
+}
+{
+  "name": "I am Mike (Trailer)",
+  "description": "This video is a trailer of my short animation films.",
+  "type": "video",
+  "img": "../../images/iammike.png",
+  "views": 0,
+  "cools": 0,
+  "url": "J2D3Rx5POC8",
+  "download": "",
+  "created": 2012,
+  "tags": [
+    {
+      "name": "Cinema4D",
+      "text": "C4D",
+      "background": "#263FA5"
+    },
+    {
+      "name": "AfterEffects",
+      "text": "Ae",
+      "background": "#5A2E99"
+    },
+    {
+      "name": "PremierPro",
+      "text": "Pr",
+      "background": "#942E99"
+    }
+  ]
+}
+{
+  "name": "I am Mike-short",
+  "description": "This video shows a short clip of I am Mike.",
+  "type": "video",
+  "img": "../../images/iammike2.png",
+  "views": 0,
+  "cools": 0,
+  "url": "1L81eY9V56A",
+  "download": "",
+  "created": 2010,
+  "tags": [
+    {
+      "name": "Cinema4D",
+      "text": "C4D",
+      "background": "#263FA5"
+    },
+    {
+      "name": "PremierPro",
+      "text": "Pr",
+      "background": "#942E99"
+    }
+  ]
+}
+{
+  "name": "ifest-09 (full)",
+  "description": "This is the complete inauguration video that I have made for GITAM University's nation level Tech-Fest.",
+  "type": "video",
+  "img": "../../images/ifest.png",
+  "views": 0,
+  "cools": 0,
+  "url": "3oxFM_7E6b4",
+  "download": "",
+  "created": 2009,
+  "tags": [
+    {
+      "name": "Cinema4D",
+      "text": "C4D",
+      "background": "#263FA5"
+    },
+    {
+      "name": "PremierPro",
+      "text": "Pr",
+      "background": "#942E99"
+    }
+  ]
+}
+{
+  "name": "Gitam - ITSA",
+  "description": "This video is an inauguration video that I have made for GITAM University's Information Technology Student Association.",
+  "type": "video",
+  "img": "../../images/itsa.png",
+  "views": 0,
+  "cools": 0,
+  "url": "aX-fd75rC-M",
+  "download": "",
+  "created": 2008,
+  "tags": [
+    {
+      "name": "Cinema4D",
+      "text": "C4D",
+      "background": "#263FA5"
+    },
+    {
+      "name": "PremierPro",
+      "text": "Pr",
+      "background": "#942E99"
+    }
+  ]
+}
+{
+  "name": "Mindtree Team Banner",
+  "description": "This image shows a banner that I have made for a team in Mindtree company.",
+  "type": "video",
+  "img": "../../images/joy.png",
+  "views": 0,
+  "cools": 0,
+  "url": "/",
+  "download": "",
+  "created": 2012,
+  "tags": [
+    {
+      "name": "Illustrator",
+      "text": "Ai",
+      "background": "orange"
+    }
+  ]
+}
+{
+  "name": "Manchester United",
+  "description": "This video is made on Manchester United Football Club as Red Devil fan.",
+  "type": "video",
+  "img": "../../images/manutd.png",
+  "views": 0,
+  "cools": 0,
+  "url": "dsujsuXxgyo",
+  "download": "",
+  "created": 2010,
+  "tags": [
+    {
+      "name": "AfterEffects",
+      "text": "Ae",
+      "background": "#5A2E99"
+    },
+    {
+      "name": "PremierPro",
+      "text": "Pr",
+      "background": "#942E99"
+    }
+  ]
+}
+{
+  "name": "Mindtree Batch 2010",
+  "description": "This is a short video on Mindtree Campus Batch 2010.",
+  "type": "video",
+  "img": "../../images/mindtree.png",
+  "views": 0,
+  "cools": 0,
+  "url": "U84TMP4vImI",
+  "download": "",
+  "created": 2010,
+  "tags": [
+    {
+      "name": "AfterEffects",
+      "text": "Ae",
+      "background": "#5A2E99"
+    },
+    {
+      "name": "PremierPro",
+      "text": "Pr",
+      "background": "#942E99"
+    }
+  ]
+}
+{
+  "name": "MRStudios",
+  "description": "This is a short video on logo animation in after effects.",
+  "type": "video",
+  "img": "../../images/mrstudios.png",
+  "views": 0,
+  "cools": 0,
+  "url": "dOkUCBSKqTE",
+  "download": "",
+  "created": 2009,
+  "tags": [
+    {
+      "name": "AfterEffects",
+      "text": "Ae",
+      "background": "#5A2E99"
+    },
+    {
+      "name": "PremierPro",
+      "text": "Pr",
+      "background": "#942E99"
+    }
+  ]
+}
+{
+  "name": "Source (Trailer)",
+  "description": "This video is a trailer of one of my short animation films.",
+  "type": "video",
+  "img": "../../images/source.png",
+  "views": 0,
+  "cools": 0,
+  "url": "i1yGy2_uKjI",
+  "download": "",
+  "created": 2008,
+  "tags": [
+    {
+      "name": "Cinema4D",
+      "text": "C4D",
+      "background": "#263FA5"
+    },
+    {
+      "name": "AfterEffects",
+      "text": "Ae",
+      "background": "#5A2E99"
+    },
+    {
+      "name": "PremierPro",
+      "text": "Pr",
+      "background": "#942E99"
+    }
+  ]
+}
+{
+  "name": "WALS-Mindtree",
+  "description": "This video is a short film on my Mindtree project team with motion graphics.",
+  "type": "video",
+  "img": "../../images/wals.png",
+  "views": 0,
+  "cools": 0,
+  "url": "Fbf1XHjktb8",
+  "download": "",
+  "created": 2012,
+  "tags": [
+    {
+      "name": "Photoshop",
+      "text": "Ps",
+      "background": "#0099cc"
+    },
+    {
+      "name": "AfterEffects",
+      "text": "Ae",
+      "background": "#5A2E99"
+    },
+    {
+      "name": "PremierPro",
+      "text": "Pr",
+      "background": "#942E99"
+    }
+  ]
+}
+{
+  "name": "Intro Video 1",
+  "description": "This is an intro video of a company that I have worked for as a freelancer.",
+  "type": "video",
+  "img": "../../images/hearthealthy.png",
+  "views": 0,
+  "cools": 0,
+  "url": "Y24UobjZBIM",
+  "download": "https://www.mediafire.com/folder/1jme6ikux4x61/Heart_Healthy_AZ",
+  "created": 2013,
+  "tags": [
+    {
+      "name": "Illustrator",
+      "text": "Ai",
+      "background": "orange"
+    },
+    {
+      "name": "AfterEffects",
+      "text": "Ae",
+      "background": "#5A2E99"
+    },
+    {
+      "name": "PremierPro",
+      "text": "Pr",
+      "background": "#942E99"
+    }
+  ]
+}
+{
+  "name": "Highlight Reel",
+  "description": "This is an highlight reel video of a company that I have worked for as a freelancer.",
+  "type": "video",
+  "img": "../../images/highlightreel.png",
+  "views": 0,
+  "cools": 0,
+  "url": "DarLYR4FemU",
+  "download": "",
+  "created": 2013,
+  "tags": [
+    {
+      "name": "Illustrator",
+      "text": "Ai",
+      "background": "orange"
+    },
+    {
+      "name": "AfterEffects",
+      "text": "Ae",
+      "background": "#5A2E99"
+    },
+    {
+      "name": "PremierPro",
+      "text": "Pr",
+      "background": "#942E99"
+    }
+  ]
+}
+{
+  "name": "Intro Video 2",
+  "description": "This is an intro video of a company that I have worked for as a freelancer.",
+  "type": "video",
+  "img": "../../images/alm-intro2.png",
+  "views": 0,
+  "cools": 0,
+  "url": "ICo4qEVC0Iw",
+  "download": "",
+  "created": 2013,
+  "tags": [
+    {
+      "name": "Illustrator",
+      "text": "Ai",
+      "background": "orange"
+    },
+    {
+      "name": "AfterEffects",
+      "text": "Ae",
+      "background": "#5A2E99"
+    },
+    {
+      "name": "PremierPro",
+      "text": "Pr",
+      "background": "#942E99"
+    }
+  ]
+}
+{
+  "name": "Intro Video 3",
+  "description": "This is an intro video of a company that I have worked for as a freelancer.",
+  "type": "video",
+  "img": "../../images/kearms-intro.png",
+  "views": 0,
+  "cools": 0,
+  "url": "UdXpOqYiNA8",
+  "download": "https://www.mediafire.com/folder/3ou26385su9om/KE_Arms",
+  "created": 2013,
+  "tags": [
+    {
+      "name": "Illustrator",
+      "text": "Ai",
+      "background": "orange"
+    },
+    {
+      "name": "AfterEffects",
+      "text": "Ae",
+      "background": "#5A2E99"
+    },
+    {
+      "name": "PremierPro",
+      "text": "Pr",
+      "background": "#942E99"
+    }
+  ]
+}
+{
+  "name": "Intro Video 4",
+  "description": "This is an intro video of a company that I have worked for as a freelancer.",
+  "type": "video",
+  "img": "../../images/alm-int-short.png",
+  "views": 0,
+  "cools": 0,
+  "url": "bHiDLJizMIQ",
+  "download": "https://www.mediafire.com/folder/dtqpsxu7yvcwd/ALM",
+  "created": 2013,
+  "tags": [
+    {
+      "name": "Illustrator",
+      "text": "Ai",
+      "background": "orange"
+    },
+    {
+      "name": "AfterEffects",
+      "text": "Ae",
+      "background": "#5A2E99"
+    },
+    {
+      "name": "PremierPro",
+      "text": "Pr",
+      "background": "#942E99"
+    }
+  ]
+}
+{
+  "name": "Intro Video 5",
+  "description": "This is an intro video of a company that I have worked for as a freelancer.",
+  "type": "video",
+  "img": "../../images/alm-intro.png",
+  "views": 0,
+  "cools": 0,
+  "url": "jiNcFHdURjs",
+  "download": "https://www.mediafire.com/folder/41jo8h7h7gbbd/Ground_Breaking",
+  "created": 2013,
+  "tags": [
+    {
+      "name": "Illustrator",
+      "text": "Ai",
+      "background": "orange"
+    },
+    {
+      "name": "AfterEffects",
+      "text": "Ae",
+      "background": "#5A2E99"
+    },
+    {
+      "name": "PremierPro",
+      "text": "Pr",
+      "background": "#942E99"
+    }
+  ]
+}

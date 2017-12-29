@@ -22,4 +22,4 @@ var technicalSchema = new mongoose.Schema({
     contributors: String
 });
 
-module.exports = mongoose.model('technicals', technicalSchema);
+module.exports = mongoose.model('technical', technicalSchema);
